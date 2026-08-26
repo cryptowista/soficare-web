@@ -1,0 +1,9 @@
+# Konfigurace Netlify pro soficare.cz
+
+[[edge_functions]]
+  path = "/"
+  function = "markdown"
+
+[[edge_functions]]
+  path = "/index.html"
+  function = "markdown"

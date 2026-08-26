@@ -1,0 +1,41 @@
+# robots.txt — soficare.cz
+# Kurátorský přehled pro AI: /llms.txt
+
+User-agent: *
+Allow: /
+
+# Explicitní souhlas pro hlavní AI crawlery
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: SeznamBot
+Allow: /
+
+# Content Signals (contentsignals.org)
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+Sitemap: https://soficare.cz/sitemap.xml

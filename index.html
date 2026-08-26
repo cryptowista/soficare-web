@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kosmetika Liberec | Ošetření pleti, obočí a řas | Sofi Care</title>
+
+<meta name="description" content="Sofi Care, kosmetické služby v Liberci na Perštýně. Ošetření pleti na míru, anti age, glowy skin, péče o citlivou a problematickou pleť, laminace a barvení obočí, korejský lash lifting. Rezervace online.">
+<meta name="author" content="Sofi Care">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="theme-color" content="#6F7A4B">
+<meta name="format-detection" content="telephone=yes">
+
+<link rel="canonical" href="https://soficare.cz/">
+<link rel="llms-txt" href="/llms.txt" type="text/markdown">
+<link rel="sitemap" href="/sitemap.xml" type="application/xml">
+
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<!-- Apple / iPhone / iPad -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sofi Care">
+<meta property="og:title" content="Kosmetické služby Liberec | Sofi Care">
+<meta property="og:description" content="Ošetření pleti na míru, anti age, laminace obočí a korejský lash lifting v Liberci. Vždy jen jedna klientka. Rezervujte si termín online.">
+<meta property="og:url" content="https://soficare.cz/">
+<meta property="og:locale" content="cs_CZ">
+<meta property="og:image" content="https://soficare.cz/fotky/hero.jpg">
+<meta property="og:image:secure_url" content="https://soficare.cz/fotky/hero.jpg">
+
+<meta property="og:image:alt" content="Kosmetické služby Sofi Care v Liberci">
+<meta property="business:contact_data:street_address" content="Na Perštýně 528/7">
+<meta property="business:contact_data:locality" content="Liberec">
+<meta property="business:contact_data:postal_code" content="46001">
+<meta property="business:contact_data:country_name" content="Česká republika">
+<meta property="business:contact_data:phone_number" content="+420607200708">
+<meta property="business:contact_data:website" content="https://soficare.cz/">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kosmetické služby Liberec | Sofi Care">
+<meta name="twitter:description" content="Ošetření pleti na míru, laminace obočí, korejský lash lifting. Rezervace online.">
+<meta name="twitter:image" content="https://soficare.cz/fotky/hero.jpg">
+<meta name="twitter:image:alt" content="Kosmetické služby Sofi Care, Liberec">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+/* ─────────────  TOKENY  ───────────── */
+:root{
+  --ink:#2B2620;
+  --ink-soft:#5C5145;
+  --brown:#7A5C43;
+  --brown-deep:#4A3728;
+  --olive:#6F7A4B;
+  --olive-deep:#525C36;
+  --olive-mist:#E2E5D3;
+  --beige:#E9DFCC;
+  --sand:#F6F0E4;
+  --paper:#FFFDF8;
+
+  --display:'Fraunces',Georgia,'Times New Roman',serif;
+  --body:'Jost',-apple-system,'Segoe UI',Roboto,sans-serif;
+
+  --arch:14rem 14rem 0.6rem 0.6rem;
+  --wrap:1180px;
+  --gut:clamp(1.25rem,5vw,3rem);
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+
+*,*::before,*::after{box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:6rem;-webkit-text-size-adjust:100%;}
+html.nav-locked,html.nav-locked body{overflow:hidden;height:100%;}
+body{
+  margin:0;background:var(--sand);color:var(--ink);
+  font-family:var(--body);font-weight:300;font-size:clamp(1rem,.97rem + .2vw,1.075rem);
+  line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;}
+
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.12;margin:0;letter-spacing:-.015em;}
+h1{font-size:clamp(2.6rem,1.6rem + 4.4vw,5rem);}
+h2{font-size:clamp(2rem,1.4rem + 2.6vw,3.3rem);}
+h3{font-size:clamp(1.25rem,1.1rem + .6vw,1.6rem);}
+p{margin:0 0 1.1em;}
+p:last-child{margin-bottom:0;}
+em{font-style:italic;color:var(--brown);}
+
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:var(--gut);}
+.section{padding-block:clamp(4.5rem,3rem + 8vw,8.5rem);position:relative;}
+.eyebrow{
+  font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;font-weight:400;
+  color:var(--olive-deep);margin:0 0 1.1rem;display:flex;align-items:center;gap:.7rem;
+}
+.eyebrow::before{content:"";width:2rem;height:1px;background:var(--olive);flex:none;}
+.lede{font-size:clamp(1.05rem,1rem + .35vw,1.2rem);color:var(--ink-soft);max-width:46ch;}
+
+/* ─────────────  TLAČÍTKA  ───────────── */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.55rem;
+  font-family:var(--body);font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;
+  padding:1.05rem 2rem;border:1px solid transparent;border-radius:2rem;
+  text-decoration:none;cursor:pointer;transition:all .35s var(--ease);
+}
+.btn-primary{background:var(--olive);color:var(--sand);}
+.btn-primary:hover{background:var(--olive-deep);transform:translateY(-2px);}
+.btn-ghost{border-color:var(--brown);color:var(--brown-deep);}
+.btn-ghost:hover{background:var(--brown);color:var(--sand);}
+:focus-visible{outline:2px solid var(--olive-deep);outline-offset:3px;border-radius:2px;}
+
+/* ─────────────  SPRIG (podpis stránky)  ───────────── */
+.sprig{width:2.2rem;height:auto;color:var(--olive);opacity:.85;}
+.sprig-rule{display:flex;align-items:center;gap:1rem;justify-content:center;margin-bottom:2.5rem;}
+.sprig-rule::before,.sprig-rule::after{content:"";height:1px;flex:1;max-width:6rem;background:linear-gradient(90deg,transparent,var(--brown));opacity:.35;}
+.sprig-rule::after{background:linear-gradient(90deg,var(--brown),transparent);}
+
+/* ─────────────  HLAVIČKA  ───────────── */
+.site-head{
+  position:fixed;inset:0 0 auto;z-index:80;
+  transition:background .4s var(--ease),box-shadow .4s var(--ease),padding .4s var(--ease);
+  padding-block:1.1rem;
+}
+.site-head.stuck{background:rgba(246,240,228,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:0 1px 0 rgba(122,92,67,.18);padding-block:.65rem;}
+.head-in{display:flex;align-items:center;justify-content:space-between;gap:1rem;}
+.brand{font-family:var(--display);font-size:1.35rem;letter-spacing:.02em;text-decoration:none;line-height:1;}
+.brand span{color:var(--olive-deep);font-style:italic;}
+.brand small{display:block;font-family:var(--body);font-size:.6rem;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-soft);margin-top:.3rem;font-weight:400;}
+.nav{display:flex;align-items:center;gap:clamp(1rem,2.2vw,2rem);}
+.nav a{
+  text-decoration:none;font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink);padding-block:.35rem;position:relative;transition:color .3s;
+}
+.nav a::after{content:"";position:absolute;left:0;bottom:0;height:1px;width:0;background:var(--olive);transition:width .35s var(--ease);}
+.nav a:hover::after,.nav a.active::after{width:100%;}
+.nav a.active{color:var(--olive-deep);}
+.nav .btn{padding:.7rem 1.35rem;font-size:.72rem;}
+.nav .btn::after{display:none;}
+.burger{display:none;background:none;border:0;padding:.6rem;cursor:pointer;color:var(--ink);}
+.burger svg{width:1.6rem;height:1.6rem;}
+
+/* ─────────────  HERO  ───────────── */
+.hero{
+  padding-top:clamp(8rem,7rem + 8vw,11rem);padding-bottom:clamp(3rem,2rem + 5vw,6rem);
+  background:
+    radial-gradient(120% 80% at 85% 0%,rgba(226,229,211,.75),transparent 60%),
+    linear-gradient(175deg,var(--sand) 40%,var(--beige));
+  overflow:hidden;
+}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,4vw,5rem);align-items:center;}
+.hero h1{margin-bottom:1.4rem;}
+.hero h1 em{display:block;}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:2.2rem;}
+.hero-meta{
+  display:flex;flex-wrap:wrap;gap:.6rem 1.6rem;margin-top:2.6rem;padding-top:1.6rem;
+  border-top:1px solid rgba(122,92,67,.22);
+  font-size:.75rem;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-soft);
+}
+.hero-photo{position:relative;}
+.hero-photo .photo{aspect-ratio:4/5;}
+.hero-photo .sprig{position:absolute;left:-1.6rem;bottom:1.5rem;width:5.5rem;transform:rotate(-14deg);}
+
+/* ─────────────  FOTO / OBLOUK  ───────────── */
+.photo{
+  position:relative;overflow:hidden;border-radius:var(--arch);
+  background:linear-gradient(160deg,var(--olive-mist),var(--beige) 55%,#D9C9B2);
+  display:grid;place-items:center;isolation:isolate;
+}
+.photo img{width:100%;height:100%;object-fit:cover;}
+.photo::after{content:"";position:absolute;inset:.55rem;border:1px solid rgba(246,240,228,.55);border-radius:calc(14rem - .5rem) calc(14rem - .5rem) .3rem .3rem;pointer-events:none;z-index:2;}
+.photo-hint{
+  position:absolute;z-index:1;text-align:center;padding:1rem;
+  font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brown);opacity:.65;
+}
+.photo.has-img .photo-hint{display:none;}
+
+/* ─────────────  O MNĚ  ───────────── */
+.about{background:var(--paper);}
+.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(2rem,5vw,5rem);align-items:center;}
+.about .photo{aspect-ratio:3/4;}
+.values{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.8rem;padding-top:2rem;border-top:1px solid rgba(122,92,67,.2);}
+.values h3{font-size:1.05rem;margin-bottom:.35rem;}
+.values p{font-size:.9rem;color:var(--ink-soft);line-height:1.6;}
+.values-num{font-family:var(--display);font-style:italic;color:var(--olive);font-size:.9rem;display:block;margin-bottom:.4rem;}
+
+/* ─────────────  ZNAČKY KOSMETIKY  ───────────── */
+.brands{margin-top:2.6rem;padding-top:2rem;border-top:1px solid rgba(122,92,67,.2);}
+.brands > p{font-size:.95rem;color:var(--ink-soft);margin-bottom:1.6rem;}
+.brand-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;}
+.brand-item h3{font-size:1.05rem;margin-bottom:.35rem;}
+.brand-item p{font-size:.9rem;color:var(--ink-soft);line-height:1.6;}
+.brand-item{border-left:2px solid var(--olive);padding-left:1rem;}
+@media (max-width:720px){.brand-grid{grid-template-columns:1fr;}}
+
+/* ─────────────  PROCEDURY  ───────────── */
+.head-center{text-align:center;max-width:36rem;margin:0 auto clamp(3rem,2rem + 3vw,4.5rem);}
+.head-center .eyebrow{justify-content:center;}
+.head-center .lede{margin-inline:auto;}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.5rem,2.5vw,2.5rem);}
+.card{
+  display:flex;flex-direction:column;background:var(--paper);
+  border:1px solid rgba(122,92,67,.18);border-top:3px solid var(--olive);
+  border-radius:.9rem;padding:clamp(1.5rem,2.5vw,2rem);
+  transition:transform .4s var(--ease),box-shadow .4s var(--ease);
+}
+.card:hover{transform:translateY(-4px);box-shadow:0 18px 40px -28px rgba(74,55,40,.55);}
+.card-top{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;margin-bottom:.5rem;}
+.card h3{font-size:1.3rem;}
+.card-time{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--olive-deep);white-space:nowrap;}
+.card p{font-size:.93rem;color:var(--ink-soft);line-height:1.65;margin-bottom:.9rem;}
+.card-price{margin-top:auto;padding-top:.9rem;border-top:1px solid rgba(122,92,67,.16);font-family:var(--display);font-size:1.2rem;color:var(--brown-deep);}
+
+/* ─────────────  SOCIÁLNÍ PRUH  ───────────── */
+.social-band{
+  margin-top:clamp(3rem,4vw,4.5rem);text-align:center;
+  background:var(--olive-mist);border-radius:1.2rem;
+  padding:clamp(2rem,4vw,3rem) clamp(1.5rem,4vw,3rem);
+}
+.social-band h3{margin-bottom:.7rem;}
+.social-band p{max-width:42ch;margin-inline:auto;color:var(--ink-soft);font-size:.98rem;}
+.social-btns{display:flex;flex-wrap:wrap;gap:.8rem;justify-content:center;margin-top:1.6rem;}
+.social-btns .btn svg{width:1.05rem;height:1.05rem;flex:none;}
+
+/* ─────────────  CENÍK  ───────────── */
+.pricing{background:var(--brown-deep);color:var(--beige);}
+.pricing .eyebrow{color:#C9CBAF;}
+.pricing .eyebrow::before{background:#C9CBAF;}
+.pricing h2{color:var(--sand);}
+.pricing .lede{color:rgba(233,223,204,.78);}
+.price-cols{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,4vw,4.5rem) clamp(2.5rem,5vw,5rem);}
+.price-group h3{font-size:1.15rem;color:var(--sand);font-style:italic;margin-bottom:1.2rem;padding-bottom:.7rem;border-bottom:1px solid rgba(233,223,204,.25);}
+.price-row{display:flex;align-items:baseline;gap:.6rem;padding-block:.75rem;}
+.price-name{flex:none;}
+.price-name b{font-weight:400;}
+.price-name i{display:block;font-style:normal;font-size:.73rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(233,223,204,.6);margin-top:.15rem;}
+.price-dots{flex:1;border-bottom:1px dotted rgba(233,223,204,.4);transform:translateY(-.25rem);min-width:1.5rem;}
+.price-amt{flex:none;font-family:var(--display);font-size:1.1rem;color:#C9CBAF;white-space:nowrap;}
+.price-note{
+  margin-top:3rem;padding:1.4rem 1.6rem;border-left:2px solid var(--olive);
+  background:rgba(246,240,228,.06);font-size:.9rem;color:rgba(233,223,204,.85);
+}
+
+/* ─────────────  KONTRAINDIKACE  ───────────── */
+.contra{background:var(--paper);}
+.contra-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,3vw,2.5rem);margin-top:1rem;}
+.contra-box{background:var(--sand);border-radius:1rem;padding:clamp(1.6rem,3vw,2.4rem);border-top:3px solid var(--olive);}
+.contra-box.stop{border-top-color:var(--brown);}
+.contra-box h3{font-size:1.25rem;margin-bottom:.4rem;}
+.contra-box .sub{font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:1.4rem;}
+.contra-list{list-style:none;margin:0;padding:0;}
+.contra-list li{position:relative;padding-left:1.6rem;padding-block:.45rem;font-size:.94rem;line-height:1.6;}
+.contra-list li::before{
+  content:"";position:absolute;left:0;top:1.05rem;width:.5rem;height:.5rem;border-radius:50%;
+  border:1px solid var(--olive);
+}
+.contra-box.stop .contra-list li::before{background:var(--brown);border-color:var(--brown);}
+.disclaimer{
+  margin-top:2.2rem;font-size:.88rem;color:var(--ink-soft);
+  background:var(--olive-mist);border-radius:1rem;padding:1.3rem 1.6rem;
+}
+
+/* ─────────────  KONTAKT  ───────────── */
+.contact{background:linear-gradient(185deg,var(--sand),var(--beige));}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,4vw,4rem);align-items:start;}
+.booking{
+  background:var(--paper);border-radius:1.2rem;padding:clamp(1.8rem,3.5vw,2.8rem);
+  box-shadow:0 20px 50px -30px rgba(74,55,40,.5);
+}
+.booking h3{margin-bottom:.6rem;}
+.booking p{font-size:.95rem;color:var(--ink-soft);}
+.booking .btn{width:100%;margin-top:1.3rem;}
+.info-list{list-style:none;margin:2rem 0 0;padding:0;}
+.info-list li{display:flex;gap:1rem;padding-block:.9rem;border-bottom:1px solid rgba(122,92,67,.18);align-items:flex-start;}
+.info-list li:last-child{border-bottom:0;}
+.info-k{flex:none;width:7.5rem;font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-soft);padding-top:.3rem;}
+.info-v{flex:1;}
+.info-v a{text-decoration:none;border-bottom:1px solid rgba(111,122,75,.5);transition:border-color .3s;}
+.info-v a:hover{border-bottom-color:var(--olive-deep);}
+.map{border-radius:1rem;overflow:hidden;border:1px solid rgba(122,92,67,.22);line-height:0;}
+.map iframe{width:100%;height:clamp(320px,42vh,520px);border:0;filter:sepia(.22) saturate(.85);}
+
+/* ─────────────  PATIČKA  ───────────── */
+.site-foot{background:var(--brown-deep);color:rgba(233,223,204,.75);padding-block:2.8rem;font-size:.85rem;}
+.foot-in{display:flex;flex-wrap:wrap;gap:1rem 2rem;align-items:center;justify-content:space-between;}
+.site-foot a{color:var(--beige);text-decoration:none;border-bottom:1px solid rgba(233,223,204,.3);}
+.site-foot a:hover{border-bottom-color:var(--beige);}
+
+/* ─────────────  FAQ  ───────────── */
+.faq{background:var(--paper);}
+.faq-list{max-width:52rem;margin-inline:auto;}
+.faq-item{border-bottom:1px solid rgba(122,92,67,.2);}
+.faq-item summary{
+  cursor:pointer;list-style:none;padding-block:1.35rem;padding-right:2.5rem;position:relative;
+  font-family:var(--display);font-size:clamp(1.08rem,1rem + .35vw,1.32rem);line-height:1.35;
+}
+.faq-item summary::-webkit-details-marker{display:none;}
+.faq-item summary::after{
+  content:"+";position:absolute;right:.2rem;top:50%;transform:translateY(-50%);
+  font-family:var(--body);font-size:1.5rem;font-weight:300;color:var(--olive);transition:transform .3s var(--ease);
+}
+.faq-item[open] summary::after{content:"×";}
+.faq-item summary:hover{color:var(--olive-deep);}
+.faq-answer{padding:0 2.5rem 1.5rem 0;color:var(--ink-soft);font-size:.96rem;}
+
+/* ─────────────  PŘESKOČIT NA OBSAH  ───────────── */
+.skip{
+  position:absolute;left:-9999px;top:0;z-index:200;background:var(--olive);color:var(--sand);
+  padding:.9rem 1.4rem;border-radius:0 0 .6rem 0;font-size:.85rem;text-decoration:none;
+}
+.skip:focus{left:0;}
+
+/* ─────────────  ANIMACE  ───────────── */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .8s var(--ease),transform .8s var(--ease);}
+.reveal.in{opacity:1;transform:none;}
+
+/* ─────────────  RESPONZIVITA  ───────────── */
+@media (max-width:960px){
+  .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr;}
+  .hero-photo{order:-1;max-width:22rem;margin-inline:auto;}
+  .hero-photo .sprig{display:none;}
+  .about .photo{max-width:20rem;margin-inline:auto;}
+  .cards{grid-template-columns:repeat(2,1fr);}
+  .price-cols{grid-template-columns:1fr;}
+}
+@media (max-width:720px){
+  :root{--arch:9rem 9rem .6rem .6rem;}
+  .photo::after{border-radius:8.5rem 8.5rem .3rem .3rem;}
+  .burger{display:block;}
+  .nav{
+    position:fixed;inset:0;height:100vh;height:100dvh;width:100%;
+    background:var(--sand);flex-direction:column;justify-content:center;align-items:center;
+    gap:1.5rem;padding:5.5rem 1.5rem 3rem;
+    overflow-y:auto;overscroll-behavior:contain;
+    transform:translateX(100%);transition:transform .45s var(--ease);
+    visibility:hidden;
+  }
+  .nav.open{visibility:visible;}
+  .nav.open{transform:none;}
+  .nav a{font-size:1rem;letter-spacing:.16em;}
+  .site-head.menu-open,
+  .site-head.stuck.menu-open{
+    background:var(--sand);
+    -webkit-backdrop-filter:none;backdrop-filter:none;
+    box-shadow:none;
+  }
+  .burger{position:relative;z-index:90;}
+  .cards,.contra-grid,.values{grid-template-columns:1fr;}
+  .values{gap:1.6rem;}
+  .info-list li{flex-direction:column;gap:.15rem;}
+  .info-k{width:auto;padding-top:0;}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;}
+  .reveal{opacity:1;transform:none;}
+}
+</style>
+</head>
+<body>
+
+<!-- SVG symbol: olivová snítka -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="sprig" viewBox="0 0 60 120">
+    <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+      <path d="M30 118 C30 90 29 60 31 30 C32 18 34 10 36 2"/>
+      <path d="M30 96 C18 94 10 86 9 74 C21 74 29 82 30 96Z" fill="currentColor" fill-opacity=".14"/>
+      <path d="M31 78 C43 76 51 68 52 56 C40 56 32 64 31 78Z" fill="currentColor" fill-opacity=".14"/>
+      <path d="M30 58 C18 56 10 48 9 36 C21 36 29 44 30 58Z" fill="currentColor" fill-opacity=".14"/>
+      <path d="M32 40 C44 38 52 30 53 18 C41 18 33 26 32 40Z" fill="currentColor" fill-opacity=".14"/>
+    </g>
+  </symbol>
+</svg>
+
+<a href="#top" class="skip">Přeskočit na obsah</a>
+
+<header class="site-head" id="head">
+  <div class="wrap head-in">
+    <a href="#top" class="brand">Sofi <span>Care</span><small>Kosmetika · Liberec</small></a>
+    <nav class="nav" id="nav" aria-label="Hlavní navigace">
+      <a href="#o-mne">O mně</a>
+      <a href="#procedury">Procedury</a>
+      <a href="#cenik">Ceník</a>
+      <a href="#kontraindikace">Kontraindikace</a>
+      <a href="#caste-dotazy">Časté dotazy</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#kontakt" class="btn btn-primary js-booking">Rezervovat</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Otevřít menu" aria-expanded="false" aria-controls="nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Sofi Care · kosmetické služby</p>
+        <h1>Kosmetika v Liberci<br><em>na míru vaší pleti.</em></h1>
+        <p class="lede">Dopřejte své pleti péči, která vychází z jejích skutečných potřeb. Ve studiu Revive v Liberci se věnuji každé pleti individuálně, od jejího zhodnocení až po samotné ošetření a doporučení domácí péče. Cílem není jen okamžitý efekt, ale dlouhodobě zdravější a spokojenější pleť.</p>
+
+        <div class="hero-cta">
+          <a href="#kontakt" class="btn btn-primary js-booking">Rezervovat termín</a>
+          <a href="#procedury" class="btn btn-ghost">Prohlédnout procedury</a>
+        </div>
+        <div class="hero-meta">
+          <span>Liberec, Na Perštýně 528/7</span>
+          <span>Čas jen pro vás</span>
+          <span>Bez čekání</span>
+          <span>Konzultace zdarma</span>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo">
+          <span class="photo-hint">fotky/hero.jpg</span>
+          <img src="fotky/hero.jpg" alt="Kosmetické ošetření pleti ve studiu Sofi Care v Liberci" loading="eager">
+        </div>
+        <svg class="sprig" aria-hidden="true"><use href="#sprig"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ O MNĚ ═══ -->
+  <section class="section about" id="o-mne">
+    <div class="wrap about-grid">
+      <div class="photo reveal">
+        <span class="photo-hint">fotky/sofie.jpg</span>
+        <img src="fotky/sofie.jpg" alt="Sofie, kosmetička Sofi Care v Liberci" loading="lazy">
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">O mně</p>
+        <h2>Kosmetička v Liberci, která dělá to, co ji baví.</h2>
+        <p class="lede" style="margin-top:1.4rem;">Kosmetika pro mě není jen obor, který studuji, ale především něco, co mě opravdu baví a naplňuje. Aktuálně studuji Střední zdravotnickou školu, obor kosmetické služby, a své znalosti si průběžně rozšiřuji také prostřednictvím odborných kurzů a školení.</p>
+        <p style="margin-top:1.2rem;color:var(--ink-soft);">Nejvíce mě baví kosmetika, práce s řasami a obočím, kde můžu podtrhnout přirozenou krásu každé klientky. Ráda také zkouším nové techniky a postupy.</p>
+        <p style="margin-top:1.2rem;color:var(--ink-soft);">Sleduji nové trendy, pravidelně se doškoluji a zajímám se o nové produkty, metody i možnosti péče. Jsem perfekcionistka a na detailech mi záleží. Svou práci se snažím dělat pečlivě, precizně a tak, abych s ní byla opravdu spokojená.</p>
+
+        <div class="brands">
+          <p>Při ošetřeních pracuji s profesionální korejskou kosmetikou, která spojuje moderní technologie, účinné aktivní látky a šetrný přístup k pleti.</p>
+          <div class="brand-grid">
+            <div class="brand-item">
+              <h3>Dr. Santé Dermatology</h3>
+              <p>Profesionální kosmetika zaměřená na cílenou péči o pleť, její hydrataci, regeneraci a celkové zlepšení kondice.</p>
+            </div>
+            <div class="brand-item">
+              <h3>Matrigen</h3>
+              <p>Korejská profesionální značka, která se zaměřuje na hydrataci, rozjasnění, zklidnění a anti age péči.</p>
+            </div>
+          </div>
+        </div>
+        <p style="margin-top:1.2rem;color:var(--ink-soft);">Stejně důležité je pro mě ale to, jak se u mě klientky cítí. Chci, aby pro ně návštěva nebyla jen kosmetickým ošetřením, ale také příjemným časem, kdy mohou na chvíli vypnout, odpočinout si a odejít s pocitem, že o ně bylo dobře postaráno.</p>
+        <p style="margin-top:1.2rem;color:var(--ink-soft);">Mám radost, když se klientka po návštěvě cítí krásnější, sebevědomější a spokojená sama se sebou. A právě to je pro mě na této práci nejhezčí.</p>
+        <p style="margin-top:1.2rem;color:var(--ink-soft);">Najdete mě v Liberci na Perštýně, ve studiu Revive, kousek od centra. Dojedete sem snadno i z Vratislavic, Rochlic, Ruprechtic, Stráže nad Nisou nebo z Jablonce.</p>
+        <div class="values">
+          <div>
+            <span class="values-num">i.</span>
+            <h3>Konzultace a diagnostika pleti</h3>
+            <p>Nejprve společně probereme, co vaše pleť potřebuje, co vás trápí a jak o ni pečujete doma.</p>
+          </div>
+          <div>
+            <span class="values-num">ii.</span>
+            <h3>Ošetření na míru</h3>
+            <p>Podle aktuálního stavu pleti zvolím vhodné produkty a postupy. Každé ošetření přizpůsobuji individuálně vaší pleti a jejím potřebám.</p>
+          </div>
+          <div>
+            <span class="values-num">iii.</span>
+            <h3>Doporučení následné péče</h3>
+            <p>Na závěr vám doporučím, jak o pleť pečovat doma, aby efekt ošetření vydržel co nejdéle a pleť byla dlouhodobě v dobré kondici.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROCEDURY ═══ -->
+  <section class="section" id="procedury">
+    <div class="wrap">
+      <div class="head-center reveal">
+        <div class="sprig-rule"><svg class="sprig" aria-hidden="true"><use href="#sprig"/></svg></div>
+        <p class="eyebrow">Procedury</p>
+        <h2>Kosmetické služby v Liberci</h2>
+        <p class="lede" style="margin-top:1.2rem;">Ošetření pleti, laminace obočí, barvení obočí, či korejský lash lifting. Pracuji s profesionální korejskou kosmetikou Dr. Santé Dermatology a Matrigen. Každé ošetření začíná konzultací. Když si nejste jisté, jakou proceduru vybrat, napište mi a poradím.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-top"><h3>Ošetření pleti na míru</h3><span class="card-time">cca 90 min</span></div>
+          <p>Individuální ošetření sestavené podle aktuálního stavu a potřeb vaší pleti.</p>
+          <p class="card-price">1 400 Kč</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top"><h3>Glowy Skin, hydratace</h3><span class="card-time">cca 90 min</span></div>
+          <p>Intenzivní hydratace pro svěží, rozjasněnou a šťavnatě vypadající pleť.</p>
+          <p class="card-price">1 300 Kč</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top"><h3>Citlivá pleť</h3><span class="card-time">cca 90 min</span></div>
+          <p>Jemné zklidňující ošetření pro citlivou, podrážděnou nebo začervenalou pleť.</p>
+          <p class="card-price">1 300 Kč</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top"><h3>Anti Age</h3><span class="card-time">cca 90 min</span></div>
+          <p>Regenerační ošetření zaměřené na pevnost, pružnost pleti a redukci známek stárnutí.</p>
+          <p class="card-price">1 600 Kč</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top"><h3>Problematická pleť</h3><span class="card-time">cca 90 min</span></div>
+          <p>Cílené ošetření pro pleť se sklonem k nedokonalostem, ucpaným pórům a nadměrné tvorbě mazu.</p>
+          <p class="card-price">1 500 Kč</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top"><h3>Laminace obočí</h3><span class="card-time">cca 60 min</span></div>
+          <p>Úprava a fixace chloupků pro dokonale tvarované, upravené a opticky plnější obočí.</p>
+          <p class="card-price">od 790 Kč</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top"><h3>Korejský Lash Lifting</h3><span class="card-time">cca 60 min</span></div>
+          <p>Šetrné natočení a zvýraznění přírodních řas pro otevřenější pohled a přirozeně elegantní efekt.</p>
+          <p class="card-price">990 Kč</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top"><h3>Výhodné balíčky</h3><span class="card-time">cca 105 min</span></div>
+          <p>Oblíbené služby v jednom balíčku za zvýhodněnou cenu. Dopřejte si kompletní péči a ušetřete.</p>
+          <p class="card-price">1 650 Kč</p>
+        </article>
+      </div>
+
+      <div class="social-band reveal">
+        <h3>Fotky najdete na sítích</h3>
+        <p>Výsledky, novinky i volné termíny na poslední chvíli dávám na Instagram.</p>
+        <div class="social-btns">
+          <a href="https://instagram.com/care.bysofi" class="btn btn-primary" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg> Instagram</a>
+          <a href="https://facebook.com/SofiCare" class="btn btn-ghost" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.5 21.9v-8.2h2.8l.42-3.2h-3.22V8.4c0-.93.26-1.56 1.6-1.56h1.7V3.98c-.3-.04-1.3-.13-2.48-.13-2.46 0-4.14 1.5-4.14 4.25v2.37H8.36v3.2h2.82v8.23z"/></svg> Facebook</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CENÍK ═══ -->
+  <section class="section pricing" id="cenik">
+    <div class="wrap">
+      <div class="head-center reveal">
+        <p class="eyebrow">Ceník</p>
+        <h2>Ceník kosmetických služeb</h2>
+        
+      </div>
+
+      <div class="price-cols reveal">
+        <div class="price-group">
+          <h3>Ošetření pleti</h3>
+          <div class="price-row"><span class="price-name"><b>Základní ošetření pleti / na míru</b></span><span class="price-dots"></span><span class="price-amt">1 400 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Glowy skin &amp; hydratace</b></span><span class="price-dots"></span><span class="price-amt">1 300 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Citlivá pleť</b></span><span class="price-dots"></span><span class="price-amt">1 300 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Anti age</b></span><span class="price-dots"></span><span class="price-amt">1 600 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Problematická pleť</b></span><span class="price-dots"></span><span class="price-amt">1 500 Kč</span></div>
+        </div>
+
+        <div class="price-group">
+          <h3>Obočí</h3>
+          <div class="price-row"><span class="price-name"><b>Laminace obočí</b></span><span class="price-dots"></span><span class="price-amt">790 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Laminace obočí s barvením</b></span><span class="price-dots"></span><span class="price-amt">890 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Barvení obočí gelovou barvou</b></span><span class="price-dots"></span><span class="price-amt">600 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Barvení obočí naturální technikou</b></span><span class="price-dots"></span><span class="price-amt">730 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Úprava obočí samostatně</b></span><span class="price-dots"></span><span class="price-amt">300 Kč</span></div>
+        </div>
+
+        <div class="price-group">
+          <h3>Řasy</h3>
+          <div class="price-row"><span class="price-name"><b>Korejský lash lifting</b></span><span class="price-dots"></span><span class="price-amt">990 Kč</span></div>
+        </div>
+
+        <div class="price-group">
+          <h3>Výhodné balíčky</h3>
+          <div class="price-row"><span class="price-name"><b>Korejský lash lifting + laminace obočí</b><i>úspora 130 Kč</i></span><span class="price-dots"></span><span class="price-amt">1 650 Kč</span></div>
+        </div>
+      </div>
+
+      <div class="price-note reveal">
+        Ceny jsou konečné. Nejsem plátce DPH. Platit můžete hotově nebo QR převodem. Na každé ošetření dostanete doklad.
+        Termín prosím zrušte nejpozději 24 hodin předem, ať ho stihne využít někdo jiný.
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ KONTRAINDIKACE ═══ -->
+  <section class="section contra" id="kontraindikace">
+    <div class="wrap">
+      <div class="head-center reveal">
+        <div class="sprig-rule"><svg class="sprig" aria-hidden="true"><use href="#sprig"/></svg></div>
+        <p class="eyebrow">Kontraindikace</p>
+        <h2>Kdy kosmetické ošetření raději odložíme</h2>
+        <p class="lede" style="margin-top:1.2rem;">Nikdo nechce přijet přes půl města a slyšet, že se dnes ošetřovat nedá. Projděte si prosím tenhle seznam ještě před rezervací. Když si u něčeho nejste jistá, napište mi a vyřešíme to předem.</p>
+      </div>
+
+      <div class="contra-grid">
+        <div class="contra-box stop reveal">
+          <h3>Teď ošetřit nemůžu</h3>
+          <p class="sub">Absolutní kontraindikace</p>
+          <ul class="contra-list">
+            <li>Akutní opar (herpes) v místě ošetření</li>
+            <li>Kožní infekce, mokvající ekzém, impetigo, plísňové onemocnění</li>
+            <li>Otevřené ranky, popáleniny nebo čerstvé jizvy do šesti týdnů</li>
+            <li>Zánět spojivek nebo jiná oční infekce, u řas a obočí</li>
+            <li>Známá alergie na použité přípravky</li>
+            <li>Léčba isotretinoinem (Roaccutane) a šest měsíců po jejím ukončení</li>
+            <li>Horečka, akutní infekční onemocnění, nevolnost</li>
+            <li>Neobjasněné pigmentové skvrny nebo znaménka, která se mění</li>
+          </ul>
+        </div>
+
+        <div class="contra-box reveal">
+          <h3>Napište mi to předem</h3>
+          <p class="sub">Relativní, vyřešíme společně</p>
+          <ul class="contra-list">
+            <li>Těhotenství a kojení, vyberu šetrnější variantu</li>
+            <li>Chemický peeling, laser nebo microneedling v posledních čtyřech týdnech</li>
+            <li>Opalování nebo solárium v posledních 48 hodinách</li>
+            <li>Retinoidy, kyseliny nebo léky zvyšující citlivost na světlo</li>
+            <li>Léky na ředění krve</li>
+            <li>Atopický ekzém, psoriáza, rosacea nebo akné v aktivní fázi</li>
+            <li>Diabetes, autoimunitní onemocnění, epilepsie</li>
+            <li>Permanentní makeup nebo prodloužené řasy</li>
+            <li>Sklon k alergiím, uděláme test 48 hodin předem</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="disclaimer reveal">
+        <strong>Nejsem lékařka</strong> a tento přehled nenahrazuje lékařskou konzultaci. Pokud si u něčeho nejste jisté, zeptejte se svého lékaře nebo mi napište. Projdeme to spolu a případně termín přesuneme.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ═══ ČASTÉ DOTAZY ═══ -->
+  <section class="section faq" id="caste-dotazy">
+    <div class="wrap">
+      <div class="head-center reveal">
+        <div class="sprig-rule"><svg class="sprig" aria-hidden="true"><use href="#sprig"/></svg></div>
+        <p class="eyebrow">Časté dotazy</p>
+        <h2>Na co se klientky ptají nejčastěji</h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <details class="faq-item">
+          <summary>Jak dlouho vydrží laminace obočí a korejský lash lifting?</summary>
+          <div class="faq-answer">Laminace obočí drží zhruba šest až osm týdnů, korejský lash lifting podobně. Záleží na rychlosti růstu chloupků a na domácí péči. Prvních 24 hodin po ošetření nedoporučuji vodu, páru ani saunu, potom už můžete běžně.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Které ošetření pleti si mám vybrat?</summary>
+          <div class="faq-answer">Když si nejste jisté, vezměte základní ošetření na míru, protože ho poskládám podle toho, co u vás uvidím. Glowy skin volte na unavenou a matnou pleť, citlivou pleť při sklonu k zarudnutí a pálení, problematickou pleť na ucpané póry a záněty, anti age na pružnost a jemné vrásky. Poradit můžu i předem přes zprávu.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Jak často chodit na kosmetiku?</summary>
+          <div class="faq-answer">U běžné pleti stačí ošetření jednou za šest až osm týdnů. U problematické pleti doporučuji na začátku sérii tří ošetření po dvou až třech týdnech a pak přejít na udržovací režim. Přesný plán vám navrhnu při první konzultaci.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Kde přesně studio najdu a jak se sem dostanu?</summary>
+          <div class="faq-answer">Studio najdete na adrese Na Perštýně 528/7, 460 01 Liberec, část Perštýn, pár minut od centra. Vchod je z ulice Mlýnská 37, naproti Lidlu. Parkování v okolí je o víkendu zdarma. Dojedete snadno z Vratislavic, Rochlic, Ruprechtic, Stráže nad Nisou i z Jablonce nad Nisou.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Jak se objednám a jde termín zrušit?</summary>
+          <div class="faq-answer">Nejrychleji přes rezervační systém, kde uvidíte volné termíny a potvrzení přijde hned. Můžete i zavolat nebo napsat. Termín prosím zrušte nejpozději 24 hodin předem, ať ho stihne využít někdo jiný.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Je konzultace opravdu zdarma?</summary>
+          <div class="faq-answer">Ano. Dvacetiminutová konzultace pleti nic nestojí a nezavazuje vás k ošetření. Projdeme, co vám na pleti vadí, co používáte doma, a navrhnu postup. Když zjistím, že je potřeba nejdřív kožní lékař, řeknu vám to rovnou.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Můžu na kosmetiku v těhotenství?</summary>
+          <div class="faq-answer">Ve většině případů ano, jen vyberu šetrnější variantu ošetření a přípravky. Napište mi to prosím předem. Projdeme si to spolu ještě před rezervací. Podrobnosti najdete v sekci kontraindikace.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ KONTAKT ═══ -->
+  <section class="section contact" id="kontakt">
+    <div class="wrap">
+      <div class="head-center reveal">
+        <p class="eyebrow">Kontakt</p>
+        <h2>Kosmetika Liberec: kontakt a rezervace</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="reveal">
+          <div class="booking">
+            <h3>Rezervace online</h3>
+            <p>V rezervačním systému vidíte volné termíny hned a potvrzení přijde okamžitě. Pokud vám žádný termín nesedí, zavolejte a domluvíme se.</p>
+            <a href="#" class="btn btn-primary js-booking" id="booking-link" target="_blank" rel="noopener">Otevřít rezervační systém</a>
+          </div>
+
+          <ul class="info-list">
+            <li><span class="info-k">Telefon</span><span class="info-v"><a href="tel:+420607200708">+420 607 200 708</a></span></li>
+            <li><span class="info-k">Email</span><span class="info-v"><a href="mailto:sofiwiener23@gmail.com" id="mail-link">sofiwiener23@gmail.com</a></span></li>
+            <li><span class="info-k">Instagram</span><span class="info-v"><a href="https://instagram.com/care.bysofi" target="_blank" rel="noopener">@care.bysofi</a></span></li>
+            <li><span class="info-k">Facebook</span><span class="info-v"><a href="https://facebook.com/SofiCare" target="_blank" rel="noopener">SofiCare</a></span></li>
+            <li><span class="info-k">Adresa</span><span class="info-v">Na Perštýně 528/7<br>460 01 Liberec<br>vchod z ulice Mlýnská 37 (naproti Lidlu)<br><small style="color:var(--ink-soft);">Dostupné z Vratislavic, Rochlic, Ruprechtic, Stráže nad Nisou i Jablonce nad Nisou</small></span></li>
+            <li><span class="info-k">Otevřeno</span><span class="info-v">Pouze víkendy</span></li>
+            <li><span class="info-k">IČ</span><span class="info-v">29738954</span></li>
+          </ul>
+        </div>
+
+        <div class="reveal">
+          <div class="map">
+            <iframe
+              title="Mapa: Sofi Care, Na Perštýně 528/7, Liberec"
+              src="https://www.google.com/maps?q=Na%20Per%C5%A1t%C3%BDn%C4%9B%20528%2F7%2C%20460%2001%20Liberec&output=embed"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-in">
+    <span>© <span id="year">2026</span> Sofi Care, Sofie Wienerová, IČO 29738954</span>
+    <span>Fyzická osoba zapsaná v živnostenském rejstříku, neplátce DPH<br>Ceník aktualizován <time datetime="2026-08-25">25. 8. 2026</time></span>
+    <span><a href="https://instagram.com/care.bysofi" target="_blank" rel="noopener">Instagram</a> · <a href="https://facebook.com/SofiCare" target="_blank" rel="noopener">Facebook</a> · <a href="#top">Nahoru</a></span>
+  </div>
+</footer>
+
+<script>
+/* ══════════════ NASTAVENÍ ══════════════ */
+const CONFIG = {
+  rezervace: "https://salona.app/cs-cz/salon/285/order",  // rezervacni system Salona
+  email:     "sofiwiener23@gmail.com"
+};
+
+/* Propsání do stránky */
+document.querySelectorAll('.js-booking').forEach(a=>{
+  a.href = CONFIG.rezervace; a.target = "_blank"; a.rel = "noopener";
+});
+const mail = document.getElementById('mail-link');
+mail.href = 'mailto:' + CONFIG.email; mail.textContent = CONFIG.email;
+document.getElementById('year').textContent = new Date().getFullYear();
+
+/* Fotky: když soubor chybí, zůstane placeholder */
+document.querySelectorAll('.photo img').forEach(img=>{
+  const ok = () => img.closest('.photo').classList.add('has-img');
+  img.addEventListener('error', () => img.remove());
+  img.addEventListener('load', ok);
+  if (img.complete && img.naturalWidth) ok();
+});
+
+/* Hlavička po odscrollování */
+const head = document.getElementById('head');
+const onScroll = () => head.classList.toggle('stuck', window.scrollY > 40);
+onScroll(); addEventListener('scroll', onScroll, {passive:true});
+
+/* Mobilní menu */
+const burger = document.getElementById('burger'), nav = document.getElementById('nav');
+const toggleMenu = force => {
+  const open = force ?? !nav.classList.contains('open');
+  if (open === nav.classList.contains('open')) return;
+  nav.classList.toggle('open', open);
+  head.classList.toggle('menu-open', open);
+  document.documentElement.classList.toggle('nav-locked', open);
+  burger.setAttribute('aria-expanded', open);
+  burger.setAttribute('aria-label', open ? 'Zavřít menu' : 'Otevřít menu');
+};
+
+/* Odsazení kotev podle SKUTEČNÉ výšky hlavičky, ne podle pevné hodnoty */
+const odsazeni = () => head.offsetHeight + 12;
+const nastavOdsazeni = () => {
+  document.documentElement.style.scrollPaddingTop = odsazeni() + 'px';
+};
+nastavOdsazeni();
+addEventListener('resize', nastavOdsazeni);
+
+/* Kliknutí na odkaz: zavřít menu, počkat na dokreslení, teprve pak odrolovat */
+const naSekci = cil => {
+  const y = cil.getBoundingClientRect().top + window.scrollY - odsazeni();
+  window.scrollTo({top: Math.max(0, Math.round(y)), behavior: 'smooth'});
+};
+
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const href = a.getAttribute('href');
+    const cil = href === '#top' ? document.body : document.querySelector(href);
+    if (!cil) return;
+    e.preventDefault();
+    const bylOtevreny = nav.classList.contains('open');
+    toggleMenu(false);
+    if (href === '#top') {
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    } else if (bylOtevreny) {
+      requestAnimationFrame(() => requestAnimationFrame(() => naSekci(cil)));
+    } else {
+      naSekci(cil);
+    }
+  });
+});
+
+burger.addEventListener('click', () => toggleMenu());
+addEventListener('keydown', e => { if (e.key === 'Escape') toggleMenu(false); });
+addEventListener('resize', () => { if (window.innerWidth > 720) toggleMenu(false); });
+
+/* Postupné odkrývání sekcí */
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+}, {threshold:.12, rootMargin:'0px 0px -60px'});
+document.querySelectorAll('.reveal').forEach((el,i) => {
+  el.style.transitionDelay = (i % 3) * 90 + 'ms';
+  io.observe(el);
+});
+
+/* Zvýraznění aktivní položky v menu */
+const links = [...document.querySelectorAll('.nav a[href^="#"]:not(.btn)')];
+const spy = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (!e.isIntersecting) return;
+    links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id));
+  });
+}, {rootMargin:'-45% 0px -50%'});
+['o-mne','procedury','cenik','kontraindikace','caste-dotazy','kontakt'].forEach(id => {
+  const s = document.getElementById(id); if (s) spy.observe(s);
+});
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":["BeautySalon","LocalBusiness"],
+      "@id":"https://soficare.cz/#studio",
+      "name":"Sofi Care",
+      "alternateName":"Sofi Care, kosmetické služby Liberec",
+      "url":"https://soficare.cz/",
+      "image":"https://soficare.cz/fotky/hero.jpg",
+      "description":"Kosmetické služby v Liberci na Perštýně. Ošetření pleti na míru, glowy skin, citlivá a problematická pleť, anti age, laminace a barvení obočí, korejský lash lifting.",
+      "founder":{"@id":"https://soficare.cz/#sofie"},
+      "employee":{"@id":"https://soficare.cz/#sofie"},
+      "telephone":"+420607200708",
+      "identifier":{"@type":"PropertyValue","name":"IČO","value":"29738954"},
+      "email":"sofiwiener23@gmail.com",
+      "brand":[
+        {"@type":"Brand","name":"Dr. Santé Dermatology"},
+        {"@type":"Brand","name":"Matrigen"}
+      ],
+      "currenciesAccepted":"CZK",
+      "paymentAccepted":"Hotovost, bankovní převod",
+      "priceRange":"300–1600 CZK",
+      "address":{
+        "@type":"PostalAddress",
+        "streetAddress":"Na Perštýně 528/7",
+        "addressLocality":"Liberec IV-Perštýn",
+        "addressRegion":"Liberecký kraj",
+        "postalCode":"46001",
+        "addressCountry":"CZ"
+      },
+      "geo":{"@type":"GeoCoordinates","latitude":50.7643,"longitude":15.0532},
+      "hasMap":"https://www.google.com/maps?q=Na+Per%C5%A1t%C3%BDn%C4%9B+528/7,+460+01+Liberec",
+      "areaServed":[
+        {"@type":"City","name":"Liberec"},
+        {"@type":"Place","name":"Vratislavice nad Nisou"},
+        {"@type":"Place","name":"Rochlice"},
+        {"@type":"Place","name":"Ruprechtice"},
+        {"@type":"Place","name":"Stráž nad Nisou"},
+        {"@type":"City","name":"Jablonec nad Nisou"}
+        ],
+      "openingHoursSpecification":[
+  {
+    "@type":"OpeningHoursSpecification",
+    "dayOfWeek":["Saturday","Sunday"],
+    "opens":"09:00",
+    "closes":"18:00"
+  }
+],
+      "sameAs":["https://instagram.com/care.bysofi","https://facebook.com/SofiCare"],
+      "hasOfferCatalog":{
+        "@type":"OfferCatalog",
+        "name":"Ceník kosmetických služeb",
+        "itemListElement":[
+          {"@type":"Offer","priceCurrency":"CZK","price":"1400","itemOffered":{"@type":"Service","name":"Základní ošetření pleti na míru","description":"Komplexní ošetření poskládané podle aktuálního stavu pleti."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"1300","itemOffered":{"@type":"Service","name":"Glowy skin a hydratace","description":"Ošetření pro unavenou a matnou pleť, doplní vláhu a vrátí zdravý lesk."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"1300","itemOffered":{"@type":"Service","name":"Ošetření citlivé pleti","description":"Šetrná varianta pro pleť se sklonem k zarudnutí a pálení."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"1600","itemOffered":{"@type":"Service","name":"Anti age ošetření pleti","description":"Ošetření zaměřené na pružnost pleti a jemné vrásky."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"1500","itemOffered":{"@type":"Service","name":"Ošetření problematické pleti","description":"Pro ucpané póry, zanícená místa a mastnější pleť."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"790","itemOffered":{"@type":"Service","name":"Laminace obočí","description":"Srovnání chloupků do tvaru, který drží několik týdnů."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"890","itemOffered":{"@type":"Service","name":"Laminace obočí s barvením","description":"Laminace obočí včetně barvení podle vašeho odstínu."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"600","itemOffered":{"@type":"Service","name":"Barvení obočí gelovou barvou","description":"Barvení obočí gelovou barvou."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"730","itemOffered":{"@type":"Service","name":"Barvení obočí naturální technikou","description":"Barvení obočí naturální technikou."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"300","itemOffered":{"@type":"Service","name":"Úprava obočí","description":"Samostatné tvarování obočí podle proporcí obličeje."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"990","itemOffered":{"@type":"Service","name":"Korejský lash lifting","description":"Zvednutí a vytvarování vlastních řas bez lepení umělých."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"1650","itemOffered":{"@type":"Service","name":"Balíček korejský lash lifting a laminace obočí","description":"Obě ošetření v jednom termínu se zvýhodněnou cenou."}}
+        ]
+      }
+    },
+    {
+      "@type":"Person",
+      "@id":"https://soficare.cz/#sofie",
+      "name":"Sofie Wienerová",
+      "jobTitle":"Kosmetička",
+      "description":"Kosmetička v Liberci. Studuje obor kosmetické služby na Střední zdravotnické škole a průběžně se doškoluje na odborných kurzech. Specializuje se na ošetření pleti, laminaci obočí a korejský lash lifting.",
+      "knowsAbout":["ošetření pleti","laminace obočí","barvení obočí","korejský lash lifting","péče o problematickou pleť","anti age ošetření"],
+      "worksFor":{"@id":"https://soficare.cz/#studio"},
+      "url":"https://soficare.cz/#o-mne",
+      "sameAs":["https://instagram.com/care.bysofi","https://facebook.com/SofiCare"]
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://soficare.cz/#web",
+      "url":"https://soficare.cz/",
+      "name":"Sofi Care, kosmetické služby Liberec",
+      "inLanguage":"cs-CZ",
+      "dateModified":"2026-08-25",
+      "about":{"@id":"https://soficare.cz/#studio"},
+      "publisher":{"@id":"https://soficare.cz/#studio"}
+    },
+    {
+      "@type":"FAQPage",
+      "@id":"https://soficare.cz/#faq",
+      "mainEntity":[
+        {"@type":"Question","name":"Jak dlouho vydrží laminace obočí a korejský lash lifting?","acceptedAnswer":{"@type":"Answer","text":"Laminace obočí drží zhruba šest až osm týdnů, korejský lash lifting podobně. Prvních 24 hodin po ošetření nedoporučuji vodu, páru ani saunu."}},
+        {"@type":"Question","name":"Které ošetření pleti si mám vybrat?","acceptedAnswer":{"@type":"Answer","text":"Když si nejste jisté, vezměte základní ošetření na míru. Glowy skin je na unavenou a matnou pleť, citlivá pleť při sklonu k zarudnutí, problematická pleť na ucpané póry a záněty, anti age na pružnost a jemné vrásky."}},
+        {"@type":"Question","name":"Jak často chodit na kosmetiku?","acceptedAnswer":{"@type":"Answer","text":"U běžné pleti stačí ošetření jednou za šest až osm týdnů. U problematické pleti doporučuji na začátku sérii tří ošetření po dvou až třech týdnech."}},
+        {"@type":"Question","name":"Kde studio najdu a jak se sem dostanu?","acceptedAnswer":{"@type":"Answer","text":"Na Perštýně 528/7, 460 01 Liberec, část Perštýn, pár minut od centra. Vchod je z ulice Mlýnská 37, naproti Lidlu. Parkování v okolí je o víkendu zdarma. Dojedete snadno z Vratislavic, Rochlic, Ruprechtic, Stráže nad Nisou i z Jablonce nad Nisou."}},
+        {"@type":"Question","name":"Jak se objednám a jde termín zrušit?","acceptedAnswer":{"@type":"Answer","text":"Nejrychleji přes rezervační systém, kde uvidíte volné termíny. Termín prosím zrušte nejpozději 24 hodin předem."}},
+        {"@type":"Question","name":"Je konzultace opravdu zdarma?","acceptedAnswer":{"@type":"Answer","text":"Ano, dvacetiminutová konzultace pleti nic nestojí a nezavazuje k ošetření."}},
+        {"@type":"Question","name":"Můžu na kosmetiku v těhotenství?","acceptedAnswer":{"@type":"Answer","text":"Ve většině případů ano, jen vyberu šetrnější variantu ošetření a přípravky. Napište mi to prosím předem."}}
+      ]
+    }
+  ]
+}
+</script>
+</body>
+</html>
