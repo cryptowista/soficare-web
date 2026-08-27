@@ -238,10 +238,10 @@ em{font-style:italic;color:var(--brown);}
 .price-cols{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,4vw,4.5rem) clamp(2.5rem,5vw,5rem);}
 .price-group h3{font-size:1.15rem;color:var(--sand);font-style:italic;margin-bottom:1.2rem;padding-bottom:.7rem;border-bottom:1px solid rgba(233,223,204,.25);}
 .price-row{display:flex;align-items:baseline;gap:.6rem;padding-block:.75rem;}
-.price-name{flex:none;}
+.price-name{flex:0 1 auto;min-width:0;}
 .price-name b{font-weight:400;}
 .price-name i{display:block;font-style:normal;font-size:.73rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(233,223,204,.6);margin-top:.15rem;}
-.price-dots{flex:1;border-bottom:1px dotted rgba(233,223,204,.4);transform:translateY(-.25rem);min-width:1.5rem;}
+.price-dots{flex:1 1 1.5rem;border-bottom:1px dotted rgba(233,223,204,.4);transform:translateY(-.25rem);min-width:1.5rem;}
 .price-amt{flex:none;font-family:var(--display);font-size:1.1rem;color:#C9CBAF;white-space:nowrap;}
 .price-note{
   margin-top:3rem;padding:1.4rem 1.6rem;border-left:2px solid var(--olive);
