@@ -25,7 +25,7 @@
 <!-- Apple / iPhone / iPad -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
-<!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+<!-- Open Graph (nahled pri sdileni: WhatsApp, Messenger, LinkedIn) -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Sofi Care">
 <meta property="og:title" content="Kosmetické služby Liberec | Sofi Care">
@@ -213,9 +213,8 @@ em{font-style:italic;color:var(--brown);}
   transition:transform .4s var(--ease),box-shadow .4s var(--ease);
 }
 .card:hover{transform:translateY(-4px);box-shadow:0 18px 40px -28px rgba(74,55,40,.55);}
-.card-top{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;margin-bottom:.5rem;}
+.card-top{margin-bottom:.5rem;}
 .card h3{font-size:1.3rem;}
-.card-time{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--olive-deep);white-space:nowrap;}
 .card p{font-size:.93rem;color:var(--ink-soft);line-height:1.65;margin-bottom:.9rem;}
 .card-price{margin-top:auto;padding-top:.9rem;border-top:1px solid rgba(122,92,67,.16);font-family:var(--display);font-size:1.2rem;color:var(--brown-deep);}
 
@@ -251,7 +250,7 @@ em{font-style:italic;color:var(--brown);}
 
 /* ─────────────  KONTRAINDIKACE  ───────────── */
 .contra{background:var(--paper);}
-.contra-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,3vw,2.5rem);margin-top:1rem;}
+.contra-grid{display:grid;gap:clamp(1.5rem,3vw,2.5rem);margin-top:1rem;max-width:46rem;margin-inline:auto;}
 .contra-box{background:var(--sand);border-radius:1rem;padding:clamp(1.6rem,3vw,2.4rem);border-top:3px solid var(--olive);}
 .contra-box.stop{border-top-color:var(--brown);}
 .contra-box h3{font-size:1.25rem;margin-bottom:.4rem;}
@@ -266,6 +265,7 @@ em{font-style:italic;color:var(--brown);}
 .disclaimer{
   margin-top:2.2rem;font-size:.88rem;color:var(--ink-soft);
   background:var(--olive-mist);border-radius:1rem;padding:1.3rem 1.6rem;
+  max-width:46rem;margin-inline:auto;
 }
 
 /* ─────────────  KONTAKT  ───────────── */
@@ -353,7 +353,7 @@ em{font-style:italic;color:var(--brown);}
     box-shadow:none;
   }
   .burger{position:relative;z-index:90;}
-  .cards,.contra-grid,.values{grid-template-columns:1fr;}
+  .cards,.values{grid-template-columns:1fr;}
   .values{gap:1.6rem;}
   .info-list li{flex-direction:column;gap:.15rem;}
   .info-k{width:auto;padding-top:0;}
@@ -494,51 +494,51 @@ em{font-style:italic;color:var(--brown);}
 
       <div class="cards">
         <article class="card reveal">
-          <div class="card-top"><h3>Ošetření pleti na míru</h3><span class="card-time">cca 90 min</span></div>
+          <div class="card-top"><h3>Ošetření pleti na míru</h3></div>
           <p>Individuální ošetření sestavené podle aktuálního stavu a potřeb vaší pleti.</p>
-          <p class="card-price">1 400 Kč</p>
+          <p class="card-price">1 299 Kč</p>
         </article>
 
         <article class="card reveal">
-          <div class="card-top"><h3>Glowy Skin, hydratace</h3><span class="card-time">cca 90 min</span></div>
+          <div class="card-top"><h3>Glowy Skin, hydratace</h3></div>
           <p>Intenzivní hydratace pro svěží, rozjasněnou a šťavnatě vypadající pleť.</p>
-          <p class="card-price">1 300 Kč</p>
+          <p class="card-price">1 299 Kč</p>
         </article>
 
         <article class="card reveal">
-          <div class="card-top"><h3>Citlivá pleť</h3><span class="card-time">cca 90 min</span></div>
+          <div class="card-top"><h3>Citlivá pleť</h3></div>
           <p>Jemné zklidňující ošetření pro citlivou, podrážděnou nebo začervenalou pleť.</p>
-          <p class="card-price">1 300 Kč</p>
+          <p class="card-price">1 299 Kč</p>
         </article>
 
         <article class="card reveal">
-          <div class="card-top"><h3>Anti Age</h3><span class="card-time">cca 90 min</span></div>
+          <div class="card-top"><h3>Anti Age</h3></div>
           <p>Regenerační ošetření zaměřené na pevnost, pružnost pleti a redukci známek stárnutí.</p>
-          <p class="card-price">1 600 Kč</p>
+          <p class="card-price">1 599 Kč</p>
         </article>
 
         <article class="card reveal">
-          <div class="card-top"><h3>Problematická pleť</h3><span class="card-time">cca 90 min</span></div>
+          <div class="card-top"><h3>Problematická pleť</h3></div>
           <p>Cílené ošetření pro pleť se sklonem k nedokonalostem, ucpaným pórům a nadměrné tvorbě mazu.</p>
-          <p class="card-price">1 500 Kč</p>
+          <p class="card-price">1 499 Kč</p>
         </article>
 
         <article class="card reveal">
-          <div class="card-top"><h3>Laminace obočí</h3><span class="card-time">cca 60 min</span></div>
+          <div class="card-top"><h3>Laminace obočí</h3></div>
           <p>Úprava a fixace chloupků pro dokonale tvarované, upravené a opticky plnější obočí.</p>
           <p class="card-price">od 790 Kč</p>
         </article>
 
         <article class="card reveal">
-          <div class="card-top"><h3>Korejský Lash Lifting</h3><span class="card-time">cca 60 min</span></div>
+          <div class="card-top"><h3>Korejský Lash Lifting</h3></div>
           <p>Šetrné natočení a zvýraznění přírodních řas pro otevřenější pohled a přirozeně elegantní efekt.</p>
           <p class="card-price">990 Kč</p>
         </article>
 
         <article class="card reveal">
-          <div class="card-top"><h3>Výhodné balíčky</h3><span class="card-time">cca 105 min</span></div>
+          <div class="card-top"><h3>Výhodné balíčky</h3></div>
           <p>Oblíbené služby v jednom balíčku za zvýhodněnou cenu. Dopřejte si kompletní péči a ušetřete.</p>
-          <p class="card-price">1 650 Kč</p>
+          <p class="card-price">1 699 Kč</p>
         </article>
       </div>
 
@@ -547,7 +547,6 @@ em{font-style:italic;color:var(--brown);}
         <p>Výsledky, novinky i volné termíny na poslední chvíli dávám na Instagram.</p>
         <div class="social-btns">
           <a href="https://instagram.com/care.bysofi" class="btn btn-primary" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg> Instagram</a>
-          <a href="https://facebook.com/SofiCare" class="btn btn-ghost" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.5 21.9v-8.2h2.8l.42-3.2h-3.22V8.4c0-.93.26-1.56 1.6-1.56h1.7V3.98c-.3-.04-1.3-.13-2.48-.13-2.46 0-4.14 1.5-4.14 4.25v2.37H8.36v3.2h2.82v8.23z"/></svg> Facebook</a>
         </div>
       </div>
     </div>
@@ -565,11 +564,11 @@ em{font-style:italic;color:var(--brown);}
       <div class="price-cols reveal">
         <div class="price-group">
           <h3>Ošetření pleti</h3>
-          <div class="price-row"><span class="price-name"><b>Základní ošetření pleti / na míru</b></span><span class="price-dots"></span><span class="price-amt">1 400 Kč</span></div>
-          <div class="price-row"><span class="price-name"><b>Glowy skin &amp; hydratace</b></span><span class="price-dots"></span><span class="price-amt">1 300 Kč</span></div>
-          <div class="price-row"><span class="price-name"><b>Citlivá pleť</b></span><span class="price-dots"></span><span class="price-amt">1 300 Kč</span></div>
-          <div class="price-row"><span class="price-name"><b>Anti age</b></span><span class="price-dots"></span><span class="price-amt">1 600 Kč</span></div>
-          <div class="price-row"><span class="price-name"><b>Problematická pleť</b></span><span class="price-dots"></span><span class="price-amt">1 500 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Základní ošetření pleti / na míru</b></span><span class="price-dots"></span><span class="price-amt">1 299 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Glowy Skin, hydratace</b></span><span class="price-dots"></span><span class="price-amt">1 299 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Citlivá pleť</b></span><span class="price-dots"></span><span class="price-amt">1 299 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Anti Age</b></span><span class="price-dots"></span><span class="price-amt">1 599 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Problematická pleť</b></span><span class="price-dots"></span><span class="price-amt">1 499 Kč</span></div>
         </div>
 
         <div class="price-group">
@@ -583,12 +582,18 @@ em{font-style:italic;color:var(--brown);}
 
         <div class="price-group">
           <h3>Řasy</h3>
-          <div class="price-row"><span class="price-name"><b>Korejský lash lifting</b></span><span class="price-dots"></span><span class="price-amt">990 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Korejský Lash Lifting</b></span><span class="price-dots"></span><span class="price-amt">990 Kč</span></div>
         </div>
 
         <div class="price-group">
           <h3>Výhodné balíčky</h3>
-          <div class="price-row"><span class="price-name"><b>Korejský lash lifting + laminace obočí</b><i>úspora 130 Kč</i></span><span class="price-dots"></span><span class="price-amt">1 650 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Korejský Lash Lifting + laminace obočí s barvením</b><i>úspora 181 Kč</i></span><span class="price-dots"></span><span class="price-amt">1 699 Kč</span></div>
+        </div>
+
+        <div class="price-group">
+          <h3>Doplňkové služby</h3>
+          <div class="price-row"><span class="price-name"><b>Barvení řas ke kosmetice</b></span><span class="price-dots"></span><span class="price-amt">100 Kč</span></div>
+          <div class="price-row"><span class="price-name"><b>Barvení obočí ke kosmetice</b></span><span class="price-dots"></span><span class="price-amt">150 Kč</span></div>
         </div>
       </div>
 
@@ -624,22 +629,6 @@ em{font-style:italic;color:var(--brown);}
             <li>Neobjasněné pigmentové skvrny nebo znaménka, která se mění</li>
           </ul>
         </div>
-
-        <div class="contra-box reveal">
-          <h3>Napište mi to předem</h3>
-          <p class="sub">Relativní, vyřešíme společně</p>
-          <ul class="contra-list">
-            <li>Těhotenství a kojení, vyberu šetrnější variantu</li>
-            <li>Chemický peeling, laser nebo microneedling v posledních čtyřech týdnech</li>
-            <li>Opalování nebo solárium v posledních 48 hodinách</li>
-            <li>Retinoidy, kyseliny nebo léky zvyšující citlivost na světlo</li>
-            <li>Léky na ředění krve</li>
-            <li>Atopický ekzém, psoriáza, rosacea nebo akné v aktivní fázi</li>
-            <li>Diabetes, autoimunitní onemocnění, epilepsie</li>
-            <li>Permanentní makeup nebo prodloužené řasy</li>
-            <li>Sklon k alergiím, uděláme test 48 hodin předem</li>
-          </ul>
-        </div>
       </div>
 
       <p class="disclaimer reveal">
@@ -661,7 +650,7 @@ em{font-style:italic;color:var(--brown);}
       <div class="faq-list reveal">
         <details class="faq-item">
           <summary>Jak dlouho vydrží laminace obočí a korejský lash lifting?</summary>
-          <div class="faq-answer">Laminace obočí drží zhruba šest až osm týdnů, korejský lash lifting podobně. Záleží na rychlosti růstu chloupků a na domácí péči. Prvních 24 hodin po ošetření nedoporučuji vodu, páru ani saunu, potom už můžete běžně.</div>
+          <div class="faq-answer">Laminace obočí drží zhruba pět až sedm týdnů, korejský Lash Lifting podobně. Záleží na rychlosti růstu chloupků a na domácí péči. Prvních 24 hodin po ošetření nedoporučuji vodu, páru ani saunu, potom už můžete běžně.</div>
         </details>
         <details class="faq-item">
           <summary>Které ošetření pleti si mám vybrat?</summary>
@@ -673,7 +662,7 @@ em{font-style:italic;color:var(--brown);}
         </details>
         <details class="faq-item">
           <summary>Kde přesně studio najdu a jak se sem dostanu?</summary>
-          <div class="faq-answer">Studio najdete na adrese Na Perštýně 528/7, 460 01 Liberec, část Perštýn, pár minut od centra. Vchod je z ulice Mlýnská 37, naproti Lidlu. Parkování v okolí je o víkendu zdarma. Dojedete snadno z Vratislavic, Rochlic, Ruprechtic, Stráže nad Nisou i z Jablonce nad Nisou.</div>
+          <div class="faq-answer">Studio najdete na adrese Na Perštýně 528/7, 460 01 Liberec, část Perštýn, pár minut od centra. Vchod je z ulice Mlýnská 37, naproti Lidlu. Zaparkovat můžete na parkovišti v OC Forum. Ve všední dny je parkování 90 minut zdarma, o víkendu 3 hodiny zdarma, každá další započatá půlhodina stojí 30 Kč. Dojedete snadno z Vratislavic, Rochlic, Ruprechtic, Stráže nad Nisou i z Jablonce nad Nisou.</div>
         </details>
         <details class="faq-item">
           <summary>Jak se objednám a jde termín zrušit?</summary>
@@ -681,7 +670,7 @@ em{font-style:italic;color:var(--brown);}
         </details>
         <details class="faq-item">
           <summary>Je konzultace opravdu zdarma?</summary>
-          <div class="faq-answer">Ano. Dvacetiminutová konzultace pleti nic nestojí a nezavazuje vás k ošetření. Projdeme, co vám na pleti vadí, co používáte doma, a navrhnu postup. Když zjistím, že je potřeba nejdřív kožní lékař, řeknu vám to rovnou.</div>
+          <div class="faq-answer">Ano. Společně projdeme, co vám na pleti vadí, co používáte doma a poté navrhnu postup.</div>
         </details>
         <details class="faq-item">
           <summary>Můžu na kosmetiku v těhotenství?</summary>
@@ -711,9 +700,8 @@ em{font-style:italic;color:var(--brown);}
             <li><span class="info-k">Telefon</span><span class="info-v"><a href="tel:+420607200708">+420 607 200 708</a></span></li>
             <li><span class="info-k">Email</span><span class="info-v"><a href="mailto:sofiwiener23@gmail.com" id="mail-link">sofiwiener23@gmail.com</a></span></li>
             <li><span class="info-k">Instagram</span><span class="info-v"><a href="https://instagram.com/care.bysofi" target="_blank" rel="noopener">@care.bysofi</a></span></li>
-            <li><span class="info-k">Facebook</span><span class="info-v"><a href="https://facebook.com/SofiCare" target="_blank" rel="noopener">SofiCare</a></span></li>
             <li><span class="info-k">Adresa</span><span class="info-v">Na Perštýně 528/7<br>460 01 Liberec<br>vchod z ulice Mlýnská 37 (naproti Lidlu)<br><small style="color:var(--ink-soft);">Dostupné z Vratislavic, Rochlic, Ruprechtic, Stráže nad Nisou i Jablonce nad Nisou</small></span></li>
-            <li><span class="info-k">Otevřeno</span><span class="info-v">Pouze víkendy</span></li>
+            <li><span class="info-k">Otevřeno</span><span class="info-v">Víkendy, po domluvě lze i jiné dny</span></li>
             <li><span class="info-k">IČ</span><span class="info-v">29738954</span></li>
           </ul>
         </div>
@@ -734,8 +722,8 @@ em{font-style:italic;color:var(--brown);}
 <footer class="site-foot">
   <div class="wrap foot-in">
     <span>© <span id="year">2026</span> Sofi Care, Sofie Wienerová, IČO 29738954</span>
-    <span>Fyzická osoba zapsaná v živnostenském rejstříku, neplátce DPH<br>Ceník aktualizován <time datetime="2026-08-25">25. 8. 2026</time></span>
-    <span><a href="https://instagram.com/care.bysofi" target="_blank" rel="noopener">Instagram</a> · <a href="https://facebook.com/SofiCare" target="_blank" rel="noopener">Facebook</a> · <a href="#top">Nahoru</a></span>
+    <span>Fyzická osoba zapsaná v živnostenském rejstříku, neplátce DPH<br>Ceník aktualizován <time datetime="2026-08-27">27. 8. 2026</time></span>
+    <span><a href="https://instagram.com/care.bysofi" target="_blank" rel="noopener">Instagram</a> · <a href="#top">Nahoru</a></span>
   </div>
 </footer>
 
@@ -887,23 +875,25 @@ const spy = new IntersectionObserver(entries => {
     "closes":"18:00"
   }
 ],
-      "sameAs":["https://instagram.com/care.bysofi","https://facebook.com/SofiCare"],
+      "sameAs":["https://instagram.com/care.bysofi"],
       "hasOfferCatalog":{
         "@type":"OfferCatalog",
         "name":"Ceník kosmetických služeb",
         "itemListElement":[
-          {"@type":"Offer","priceCurrency":"CZK","price":"1400","itemOffered":{"@type":"Service","name":"Základní ošetření pleti na míru","description":"Komplexní ošetření poskládané podle aktuálního stavu pleti."}},
-          {"@type":"Offer","priceCurrency":"CZK","price":"1300","itemOffered":{"@type":"Service","name":"Glowy skin a hydratace","description":"Ošetření pro unavenou a matnou pleť, doplní vláhu a vrátí zdravý lesk."}},
-          {"@type":"Offer","priceCurrency":"CZK","price":"1300","itemOffered":{"@type":"Service","name":"Ošetření citlivé pleti","description":"Šetrná varianta pro pleť se sklonem k zarudnutí a pálení."}},
-          {"@type":"Offer","priceCurrency":"CZK","price":"1600","itemOffered":{"@type":"Service","name":"Anti age ošetření pleti","description":"Ošetření zaměřené na pružnost pleti a jemné vrásky."}},
-          {"@type":"Offer","priceCurrency":"CZK","price":"1500","itemOffered":{"@type":"Service","name":"Ošetření problematické pleti","description":"Pro ucpané póry, zanícená místa a mastnější pleť."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"1299","itemOffered":{"@type":"Service","name":"Základní ošetření pleti na míru","description":"Komplexní ošetření poskládané podle aktuálního stavu pleti."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"1299","itemOffered":{"@type":"Service","name":"Glowy Skin, hydratace","description":"Ošetření pro unavenou a matnou pleť, doplní vláhu a vrátí zdravý lesk."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"1299","itemOffered":{"@type":"Service","name":"Ošetření citlivé pleti","description":"Šetrná varianta pro pleť se sklonem k zarudnutí a pálení."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"1599","itemOffered":{"@type":"Service","name":"Anti Age ošetření pleti","description":"Ošetření zaměřené na pružnost pleti a jemné vrásky."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"1499","itemOffered":{"@type":"Service","name":"Ošetření problematické pleti","description":"Pro ucpané póry, zanícená místa a mastnější pleť."}},
           {"@type":"Offer","priceCurrency":"CZK","price":"790","itemOffered":{"@type":"Service","name":"Laminace obočí","description":"Srovnání chloupků do tvaru, který drží několik týdnů."}},
           {"@type":"Offer","priceCurrency":"CZK","price":"890","itemOffered":{"@type":"Service","name":"Laminace obočí s barvením","description":"Laminace obočí včetně barvení podle vašeho odstínu."}},
           {"@type":"Offer","priceCurrency":"CZK","price":"600","itemOffered":{"@type":"Service","name":"Barvení obočí gelovou barvou","description":"Barvení obočí gelovou barvou."}},
           {"@type":"Offer","priceCurrency":"CZK","price":"730","itemOffered":{"@type":"Service","name":"Barvení obočí naturální technikou","description":"Barvení obočí naturální technikou."}},
           {"@type":"Offer","priceCurrency":"CZK","price":"300","itemOffered":{"@type":"Service","name":"Úprava obočí","description":"Samostatné tvarování obočí podle proporcí obličeje."}},
-          {"@type":"Offer","priceCurrency":"CZK","price":"990","itemOffered":{"@type":"Service","name":"Korejský lash lifting","description":"Zvednutí a vytvarování vlastních řas bez lepení umělých."}},
-          {"@type":"Offer","priceCurrency":"CZK","price":"1650","itemOffered":{"@type":"Service","name":"Balíček korejský lash lifting a laminace obočí","description":"Obě ošetření v jednom termínu se zvýhodněnou cenou."}}
+          {"@type":"Offer","priceCurrency":"CZK","price":"990","itemOffered":{"@type":"Service","name":"Korejský Lash Lifting","description":"Zvednutí a vytvarování vlastních řas bez lepení umělých."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"1699","itemOffered":{"@type":"Service","name":"Balíček Korejský Lash Lifting a laminace obočí s barvením","description":"Obě ošetření v jednom termínu se zvýhodněnou cenou, úspora 181 Kč."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"100","itemOffered":{"@type":"Service","name":"Barvení řas ke kosmetice","description":"Doplňková služba k ošetření pleti."}},
+          {"@type":"Offer","priceCurrency":"CZK","price":"150","itemOffered":{"@type":"Service","name":"Barvení obočí ke kosmetice","description":"Doplňková služba k ošetření pleti."}}
         ]
       }
     },
@@ -916,7 +906,7 @@ const spy = new IntersectionObserver(entries => {
       "knowsAbout":["ošetření pleti","laminace obočí","barvení obočí","korejský lash lifting","péče o problematickou pleť","anti age ošetření"],
       "worksFor":{"@id":"https://soficare.cz/#studio"},
       "url":"https://soficare.cz/#o-mne",
-      "sameAs":["https://instagram.com/care.bysofi","https://facebook.com/SofiCare"]
+      "sameAs":["https://instagram.com/care.bysofi"]
     },
     {
       "@type":"WebSite",
@@ -924,7 +914,7 @@ const spy = new IntersectionObserver(entries => {
       "url":"https://soficare.cz/",
       "name":"Sofi Care, kosmetické služby Liberec",
       "inLanguage":"cs-CZ",
-      "dateModified":"2026-08-25",
+      "dateModified":"2026-08-27",
       "about":{"@id":"https://soficare.cz/#studio"},
       "publisher":{"@id":"https://soficare.cz/#studio"}
     },
@@ -932,12 +922,12 @@ const spy = new IntersectionObserver(entries => {
       "@type":"FAQPage",
       "@id":"https://soficare.cz/#faq",
       "mainEntity":[
-        {"@type":"Question","name":"Jak dlouho vydrží laminace obočí a korejský lash lifting?","acceptedAnswer":{"@type":"Answer","text":"Laminace obočí drží zhruba šest až osm týdnů, korejský lash lifting podobně. Prvních 24 hodin po ošetření nedoporučuji vodu, páru ani saunu."}},
+        {"@type":"Question","name":"Jak dlouho vydrží laminace obočí a Korejský Lash Lifting?","acceptedAnswer":{"@type":"Answer","text":"Laminace obočí drží zhruba pět až sedm týdnů, Korejský Lash Lifting podobně. Prvních 24 hodin po ošetření nedoporučuji vodu, páru ani saunu."}},
         {"@type":"Question","name":"Které ošetření pleti si mám vybrat?","acceptedAnswer":{"@type":"Answer","text":"Když si nejste jisté, vezměte základní ošetření na míru. Glowy skin je na unavenou a matnou pleť, citlivá pleť při sklonu k zarudnutí, problematická pleť na ucpané póry a záněty, anti age na pružnost a jemné vrásky."}},
         {"@type":"Question","name":"Jak často chodit na kosmetiku?","acceptedAnswer":{"@type":"Answer","text":"U běžné pleti stačí ošetření jednou za šest až osm týdnů. U problematické pleti doporučuji na začátku sérii tří ošetření po dvou až třech týdnech."}},
-        {"@type":"Question","name":"Kde studio najdu a jak se sem dostanu?","acceptedAnswer":{"@type":"Answer","text":"Na Perštýně 528/7, 460 01 Liberec, část Perštýn, pár minut od centra. Vchod je z ulice Mlýnská 37, naproti Lidlu. Parkování v okolí je o víkendu zdarma. Dojedete snadno z Vratislavic, Rochlic, Ruprechtic, Stráže nad Nisou i z Jablonce nad Nisou."}},
+        {"@type":"Question","name":"Kde studio najdu a jak se sem dostanu?","acceptedAnswer":{"@type":"Answer","text":"Na Perštýně 528/7, 460 01 Liberec, část Perštýn, pár minut od centra. Vchod je z ulice Mlýnská 37, naproti Lidlu. Zaparkovat můžete na parkovišti v OC Forum. Ve všední dny je parkování 90 minut zdarma, o víkendu 3 hodiny zdarma, každá další započatá půlhodina stojí 30 Kč. Dojedete snadno z Vratislavic, Rochlic, Ruprechtic, Stráže nad Nisou i z Jablonce nad Nisou."}},
         {"@type":"Question","name":"Jak se objednám a jde termín zrušit?","acceptedAnswer":{"@type":"Answer","text":"Nejrychleji přes rezervační systém, kde uvidíte volné termíny. Termín prosím zrušte nejpozději 24 hodin předem."}},
-        {"@type":"Question","name":"Je konzultace opravdu zdarma?","acceptedAnswer":{"@type":"Answer","text":"Ano, dvacetiminutová konzultace pleti nic nestojí a nezavazuje k ošetření."}},
+        {"@type":"Question","name":"Je konzultace opravdu zdarma?","acceptedAnswer":{"@type":"Answer","text":"Ano. Společně projdeme, co vám na pleti vadí, co používáte doma a poté navrhnu postup."}},
         {"@type":"Question","name":"Můžu na kosmetiku v těhotenství?","acceptedAnswer":{"@type":"Answer","text":"Ve většině případů ano, jen vyberu šetrnější variantu ošetření a přípravky. Napište mi to prosím předem."}}
       ]
     }
