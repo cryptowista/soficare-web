@@ -53,6 +53,7 @@ Ceny jsou konečné, Sofie Wienerová není plátce DPH. Platba hotově nebo ban
 - [Kontraindikace](https://soficare.cz/#kontraindikace): kdy ošetření nelze provést
 - [Časté dotazy](https://soficare.cz/#caste-dotazy): trvanlivost ošetření, výběr procedury, frekvence návštěv, dostupnost, těhotenství
 - [Kontakt](https://soficare.cz/#kontakt): adresa, mapa, rezervace
+- [Zásady ochrany osobních údajů](https://soficare.cz/soukromi.html): jak se nakládá s údaji klientek
 
 ## Poznámky
 

@@ -7,6 +7,11 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
 
+/fonty/*
+  Content-Type: font/woff2
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
 /llms.txt
   Content-Type: text/markdown; charset=utf-8
   Cache-Control: public, max-age=3600

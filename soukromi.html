@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zásady ochrany osobních údajů | Sofi Care</title>
+<meta name="description" content="Jak Sofi Care nakládá s osobními údaji klientek. Rozsah zpracování, zpracovatelé, doba uchování a vaše práva.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#6F7A4B">
+<link rel="canonical" href="https://soficare.cz/soukromi.html">
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<!-- Písma hostovaná lokálně: žádný požadavek na Google, tedy ani přenos IP adresy -->
+<link rel="preload" href="/fonty/fraunces-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonty/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+/* Fraunces (variable, osa opsz) */
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:300 600;font-display:swap;font-variation-settings:normal;
+  src:url('/fonty/fraunces-latin-ext-opsz-normal.woff2') format('woff2-variations');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:300 600;font-display:swap;font-variation-settings:normal;
+  src:url('/fonty/fraunces-latin-opsz-normal.woff2') format('woff2-variations');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Fraunces';font-style:italic;font-weight:300 400;font-display:swap;font-variation-settings:normal;
+  src:url('/fonty/fraunces-latin-ext-opsz-italic.woff2') format('woff2-variations');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Fraunces';font-style:italic;font-weight:300 400;font-display:swap;font-variation-settings:normal;
+  src:url('/fonty/fraunces-latin-opsz-italic.woff2') format('woff2-variations');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Jost';font-style:normal;font-weight:300;font-display:swap;
+  src:url('/fonty/jost-latin-ext-300-normal.woff2') format('woff2');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Jost';font-style:normal;font-weight:300;font-display:swap;
+  src:url('/fonty/jost-latin-300-normal.woff2') format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Jost';font-style:normal;font-weight:400;font-display:swap;
+  src:url('/fonty/jost-latin-ext-400-normal.woff2') format('woff2');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Jost';font-style:normal;font-weight:400;font-display:swap;
+  src:url('/fonty/jost-latin-400-normal.woff2') format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Jost';font-style:normal;font-weight:500;font-display:swap;
+  src:url('/fonty/jost-latin-ext-500-normal.woff2') format('woff2');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Jost';font-style:normal;font-weight:500;font-display:swap;
+  src:url('/fonty/jost-latin-500-normal.woff2') format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+</style>
+<style>
+:root{
+  --ink:#2B2620;--ink-soft:#5C5145;--brown:#7A5C43;--brown-deep:#4A3728;
+  --olive:#6F7A4B;--olive-deep:#525C36;--olive-mist:#E2E5D3;
+  --beige:#E9DFCC;--sand:#F6F0E4;--paper:#FFFDF8;
+  --display:'Fraunces',Georgia,serif;--body:'Jost',-apple-system,'Segoe UI',sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;}
+html{overflow-x:clip;-webkit-text-size-adjust:100%;}
+body{
+  margin:0;background:var(--sand);color:var(--ink);font-family:var(--body);
+  font-weight:300;font-size:1.02rem;line-height:1.75;-webkit-font-smoothing:antialiased;
+}
+.wrap{width:100%;max-width:44rem;margin-inline:auto;padding:clamp(2.5rem,6vw,5rem) clamp(1.25rem,5vw,2rem);}
+a{color:var(--olive-deep);}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(2rem,1.4rem + 2.4vw,3rem);line-height:1.15;margin:0 0 .6rem;letter-spacing:-.015em;}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(1.3rem,1.15rem + .7vw,1.65rem);margin:2.6rem 0 .7rem;}
+p,li{margin:0 0 1em;}
+ul{padding-left:1.2rem;}
+.zpet{
+  display:inline-flex;align-items:center;gap:.5rem;text-decoration:none;
+  font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brown-deep);
+  margin-bottom:2.2rem;border-bottom:1px solid rgba(122,92,67,.4);padding-bottom:.25rem;
+}
+.zpet:hover{border-bottom-color:var(--brown-deep);}
+.datum{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:2.5rem;}
+.box{background:var(--paper);border-left:2px solid var(--olive);border-radius:.8rem;padding:1.3rem 1.6rem;margin:1.6rem 0;}
+.box p:last-child{margin-bottom:0;}
+footer{border-top:1px solid rgba(122,92,67,.2);margin-top:3rem;padding-top:1.6rem;font-size:.88rem;color:var(--ink-soft);}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <a href="/" class="zpet">Zpět na soficare.cz</a>
+
+  <h1>Zásady ochrany osobních údajů</h1>
+  <p class="datum">Účinné od 29. 8. 2026</p>
+
+  <p>Tyto zásady popisují, jak nakládám s osobními údaji klientek a návštěvnic webu soficare.cz. Snažím se je psát srozumitelně, ne právnicky.</p>
+
+  <h2>Kdo údaje zpracovává</h2>
+  <p>Správcem osobních údajů jsem já, Sofie Wienerová, IČO 29738954, fyzická osoba zapsaná v živnostenském rejstříku, s místem podnikání Na Perštýně 528/7, 460 01 Liberec. Kontaktovat mě můžete na <a href="mailto:sofiwiener23@gmail.com">sofiwiener23@gmail.com</a> nebo na telefonu <a href="tel:+420607200708">+420 607 200 708</a>.</p>
+
+  <h2>Co web sám o sobě sbírá</h2>
+  <p>Nic. Web soficare.cz neobsahuje žádný formulář, nepoužívá analytické nástroje ani reklamní systémy a neukládá do vašeho prohlížeče žádné cookies.</p>
+  <div class="box">
+    <p>Mapa v sekci Kontakt se načte teprve tehdy, když na ni klepnete. Do té doby se do Googlu neodesílá nic. Písma jsou uložená přímo na tomto webu, takže se ani při jejich načtení nikam nic neodesílá.</p>
+  </div>
+
+  <h2>Když si zarezervujete termín</h2>
+  <p>Rezervace probíhá v systému Salona, který provozuje samostatná společnost. Údaje, které tam vyplníte, zpracovává v roli zpracovatele podle svých vlastních podmínek. Než rezervaci dokončíte, doporučuji si je přečíst.</p>
+  <p>Ke mně se z rezervace dostane vaše jméno, telefon, emailová adresa a vybraná služba s termínem. Potřebuji je k tomu, abych vás mohla objednat a v případě potřeby vám dát vědět o změně.</p>
+
+  <h2>Co si zapisuji při ošetření</h2>
+  <p>Před prvním ošetřením spolu projdeme stav vaší pleti, používané přípravky a případné kontraindikace. Poznámky si dělám proto, abych při další návštěvě navázala a vybrala vhodný postup.</p>
+  <p>Součástí těchto poznámek mohou být údaje o vašem zdraví, například alergie nebo užívané léky. Ty patří mezi zvláštní kategorie osobních údajů a zpracovávám je jen na základě vašeho souhlasu, který mi dáte při konzultaci. Souhlas můžete kdykoli odvolat.</p>
+
+  <h2>Fotografie</h2>
+  <p>Fotografii výsledku ošetření pořizuji a zveřejňuji na Instagramu jedině tehdy, když mi k tomu dáte souhlas. Souhlas je dobrovolný, na cenu ani průběh ošetření nemá vliv a můžete ho kdykoli odvolat. Pak fotografii odstraním.</p>
+
+  <h2>Jak dlouho údaje uchovávám</h2>
+  <ul>
+    <li>Kontaktní údaje a poznámky k ošetření: po dobu, kdy ke mně docházíte, a další tři roky od poslední návštěvy</li>
+    <li>Doklady o zaplacení: deset let, jak vyžadují daňové předpisy</li>
+    <li>Fotografie se souhlasem: dokud souhlas neodvoláte</li>
+  </ul>
+
+  <h2>Komu údaje předávám</h2>
+  <p>Rezervačnímu systému Salona, účetní při zpracování daňové evidence a orgánům veřejné moci, pokud to ukládá zákon. Nikomu jinému. Údaje neprodávám ani nepředávám pro marketingové účely.</p>
+
+  <h2>Vaše práva</h2>
+  <p>Máte právo vědět, jaké údaje o vás mám, žádat jejich opravu nebo výmaz, omezit jejich zpracování, získat je v přenositelné podobě a vznést námitku proti zpracování. Kde je základem souhlas, můžete ho kdykoli odvolat.</p>
+  <p>Stačí mi napsat na <a href="mailto:sofiwiener23@gmail.com">sofiwiener23@gmail.com</a>. Ozvu se nejpozději do jednoho měsíce.</p>
+  <p>Pokud budete mít pocit, že s vašimi údaji nenakládám správně, můžete se obrátit na Úřad pro ochranu osobních údajů, Pplk. Sochora 27, 170 00 Praha 7, <a href="https://www.uoou.cz" target="_blank" rel="noopener">uoou.cz</a>.</p>
+
+  <h2>Změny</h2>
+  <p>Kdyby se něco z výše uvedeného změnilo, upravím tuto stránku a změním datum účinnosti nahoře.</p>
+
+  <footer>
+    Sofi Care, Sofie Wienerová, IČO 29738954<br>
+    Na Perštýně 528/7, 460 01 Liberec<br>
+    <a href="/">Zpět na hlavní stránku</a>
+  </footer>
+</main>
+</body>
+</html>
