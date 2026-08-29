@@ -144,6 +144,10 @@ em{font-style:italic;color:var(--brown);}
 .nav a:hover::after,.nav a.active::after{width:100%;}
 .nav a.active{color:var(--olive-deep);}
 .nav .btn{padding:.7rem 1.35rem;font-size:.72rem;}
+.nav a.btn-primary{color:var(--sand);}
+.nav a.btn-primary:hover{color:var(--sand);}
+.nav a.btn-ghost{color:var(--brown-deep);}
+.nav a.btn-ghost:hover{color:var(--sand);}
 .nav .btn::after{display:none;}
 .burger{display:none;background:none;border:0;padding:.6rem;cursor:pointer;color:var(--ink);}
 .burger svg{width:1.6rem;height:1.6rem;}
@@ -318,6 +322,42 @@ em{font-style:italic;color:var(--brown);}
 }
 .skip:focus{left:0;}
 
+/* ─────────────  JAK TO PROBÍHÁ  ───────────── */
+.proces{background:var(--paper);}
+.kroky{
+  list-style:none;margin:0;padding:0;
+  display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.5rem,3vw,2.5rem);
+  counter-reset:krok;
+}
+.krok{
+  position:relative;background:var(--sand);border-radius:1rem;
+  padding:clamp(1.8rem,3vw,2.4rem) clamp(1.5rem,2.5vw,2rem) clamp(1.6rem,2.5vw,2rem);
+  border-top:3px solid var(--olive);
+}
+.krok-num{
+  position:absolute;top:-1.05rem;left:clamp(1.5rem,2.5vw,2rem);
+  width:2.1rem;height:2.1rem;border-radius:50%;
+  background:var(--olive);color:var(--sand);
+  display:grid;place-items:center;
+  font-family:var(--display);font-size:1rem;line-height:1;
+}
+.krok h3{font-size:1.1rem;margin:.5rem 0 .5rem;}
+.krok p{font-size:.93rem;color:var(--ink-soft);line-height:1.65;}
+
+/* ─────────────  PLOVOUCÍ LIŠTA (mobil)  ───────────── */
+.cta-bar{
+  position:fixed;left:0;right:0;bottom:0;z-index:70;display:none;
+  gap:.6rem;padding:.7rem .9rem calc(.7rem + env(safe-area-inset-bottom));
+  background:rgba(246,240,228,.95);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+  box-shadow:0 -1px 0 rgba(122,92,67,.2);
+  transform:translateY(120%);transition:transform .35s var(--ease);
+}
+.cta-bar.show{transform:none;}
+.cta-bar .btn{flex:1;padding:.95rem 1rem;font-size:.75rem;}
+.cta-bar .btn-ghost{flex:0 0 auto;padding-inline:1.1rem;}
+.cta-bar svg{width:1.05rem;height:1.05rem;}
+
 /* ─────────────  ANIMACE  ───────────── */
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .8s var(--ease),transform .8s var(--ease);}
 .reveal.in{opacity:1;transform:none;}
@@ -353,7 +393,10 @@ em{font-style:italic;color:var(--brown);}
     box-shadow:none;
   }
   .burger{position:relative;z-index:90;}
-  .cards,.values{grid-template-columns:1fr;}
+  .cards,.values,.kroky{grid-template-columns:1fr;}
+  .krok{margin-top:.6rem;}
+  .cta-bar{display:flex;}
+  .site-foot{padding-bottom:5.5rem;}
   .values{gap:1.6rem;}
   .info-list li{flex-direction:column;gap:.15rem;}
   .info-k{width:auto;padding-top:0;}
@@ -387,6 +430,7 @@ em{font-style:italic;color:var(--brown);}
     <a href="#top" class="brand">Sofi <span>Care</span><small>Kosmetika · Liberec</small></a>
     <nav class="nav" id="nav" aria-label="Hlavní navigace">
       <a href="#o-mne">O mně</a>
+      <a href="#prubeh">Jak to probíhá</a>
       <a href="#procedury">Procedury</a>
       <a href="#cenik">Ceník</a>
       <a href="#kontraindikace">Kontraindikace</a>
@@ -461,24 +505,37 @@ em{font-style:italic;color:var(--brown);}
         <p style="margin-top:1.2rem;color:var(--ink-soft);">Stejně důležité je pro mě ale to, jak se u mě klientky cítí. Chci, aby pro ně návštěva nebyla jen kosmetickým ošetřením, ale také příjemným časem, kdy mohou na chvíli vypnout, odpočinout si a odejít s pocitem, že o ně bylo dobře postaráno.</p>
         <p style="margin-top:1.2rem;color:var(--ink-soft);">Mám radost, když se klientka po návštěvě cítí krásnější, sebevědomější a spokojená sama se sebou. A právě to je pro mě na této práci nejhezčí.</p>
         <p style="margin-top:1.2rem;color:var(--ink-soft);">Najdete mě v Liberci na Perštýně, ve studiu Revive, kousek od centra. Dojedete sem snadno i z Vratislavic, Rochlic, Ruprechtic, Stráže nad Nisou nebo z Jablonce.</p>
-        <div class="values">
-          <div>
-            <span class="values-num">i.</span>
-            <h3>Konzultace a diagnostika pleti</h3>
-            <p>Nejprve společně probereme, co vaše pleť potřebuje, co vás trápí a jak o ni pečujete doma.</p>
-          </div>
-          <div>
-            <span class="values-num">ii.</span>
-            <h3>Ošetření na míru</h3>
-            <p>Podle aktuálního stavu pleti zvolím vhodné produkty a postupy. Každé ošetření přizpůsobuji individuálně vaší pleti a jejím potřebám.</p>
-          </div>
-          <div>
-            <span class="values-num">iii.</span>
-            <h3>Doporučení následné péče</h3>
-            <p>Na závěr vám doporučím, jak o pleť pečovat doma, aby efekt ošetření vydržel co nejdéle a pleť byla dlouhodobě v dobré kondici.</p>
-          </div>
-        </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ═══ JAK OŠETŘENÍ PROBÍHÁ ═══ -->
+  <section class="section proces" id="prubeh">
+    <div class="wrap">
+      <div class="head-center reveal">
+        <div class="sprig-rule"><svg class="sprig" aria-hidden="true"><use href="#sprig"/></svg></div>
+        <p class="eyebrow">Jak to probíhá</p>
+        <h2>Tři kroky každého ošetření</h2>
+        <p class="lede" style="margin-top:1.2rem;">Každé ošetření začíná konzultací a končí doporučením, jak o pleť pečovat doma. Víte tak dopředu, do čeho jdete.</p>
+      </div>
+
+      <ol class="kroky">
+        <li class="krok reveal">
+          <span class="krok-num">1</span>
+          <h3>Konzultace a diagnostika pleti</h3>
+          <p>Nejprve společně probereme, co vaše pleť potřebuje, co vás trápí a jak o ni pečujete doma.</p>
+        </li>
+        <li class="krok reveal">
+          <span class="krok-num">2</span>
+          <h3>Ošetření na míru</h3>
+          <p>Podle aktuálního stavu pleti zvolím vhodné produkty a postupy. Každé ošetření přizpůsobuji individuálně vaší pleti a jejím potřebám.</p>
+        </li>
+        <li class="krok reveal">
+          <span class="krok-num">3</span>
+          <h3>Doporučení následné péče</h3>
+          <p>Na závěr vám doporučím, jak o pleť pečovat doma, aby efekt ošetření vydržel co nejdéle a pleť byla dlouhodobě v dobré kondici.</p>
+        </li>
+      </ol>
     </div>
   </section>
 
@@ -611,12 +668,12 @@ em{font-style:italic;color:var(--brown);}
         <div class="sprig-rule"><svg class="sprig" aria-hidden="true"><use href="#sprig"/></svg></div>
         <p class="eyebrow">Kontraindikace</p>
         <h2>Kdy kosmetické ošetření raději odložíme</h2>
-        <p class="lede" style="margin-top:1.2rem;">Nikdo nechce přijet přes půl města a slyšet, že se dnes ošetřovat nedá. Projděte si prosím tenhle seznam ještě před rezervací. Když si u něčeho nejste jistá, napište mi a vyřešíme to předem.</p>
+        <p class="lede" style="margin-top:1.2rem;">Pokud si před rezervací nejste jistá, napište mi a vše spolu probereme. Předejdeme tak zbytečné cestě i zklamání na místě.</p>
       </div>
 
       <div class="contra-grid">
         <div class="contra-box stop reveal">
-          <h3>Teď ošetřit nemůžu</h3>
+          <h3>Kdy ošetřit nemůžu</h3>
           <p class="sub">Absolutní kontraindikace</p>
           <ul class="contra-list">
             <li>Akutní opar (herpes) v místě ošetření</li>
@@ -719,10 +776,19 @@ em{font-style:italic;color:var(--brown);}
   </section>
 </main>
 
+
+<div class="cta-bar" id="cta-bar" aria-hidden="true">
+  <a href="#kontakt" class="btn btn-primary js-booking">Rezervovat termín</a>
+  <a href="tel:+420607200708" class="btn btn-ghost" aria-label="Zavolat na číslo 607 200 708">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.6 3.5h3l1.5 3.8-1.9 1.2a12 12 0 0 0 5.3 5.3l1.2-1.9 3.8 1.5v3a1.7 1.7 0 0 1-1.9 1.7A16.5 16.5 0 0 1 4.9 5.4 1.7 1.7 0 0 1 6.6 3.5z"/></svg>
+    Zavolat
+  </a>
+</div>
+
 <footer class="site-foot">
   <div class="wrap foot-in">
     <span>© <span id="year">2026</span> Sofi Care, Sofie Wienerová, IČO 29738954</span>
-    <span>Fyzická osoba zapsaná v živnostenském rejstříku, neplátce DPH<br>Ceník aktualizován <time datetime="2026-08-27">27. 8. 2026</time></span>
+    <span>Fyzická osoba zapsaná v živnostenském rejstříku, neplátce DPH<br>Ceník aktualizován <time datetime="2026-08-29">29. 8. 2026</time></span>
     <span><a href="https://instagram.com/care.bysofi" target="_blank" rel="noopener">Instagram</a> · <a href="#top">Nahoru</a></span>
   </div>
 </footer>
@@ -820,9 +886,27 @@ const spy = new IntersectionObserver(entries => {
     links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id));
   });
 }, {rootMargin:'-45% 0px -50%'});
-['o-mne','procedury','cenik','kontraindikace','caste-dotazy','kontakt'].forEach(id => {
+['o-mne','prubeh','procedury','cenik','kontraindikace','caste-dotazy','kontakt'].forEach(id => {
   const s = document.getElementById(id); if (s) spy.observe(s);
 });
+/* Plovoucí lišta: ukázat po odrolování pod hero, schovat u kontaktu */
+const bar = document.getElementById('cta-bar');
+const hero = document.querySelector('.hero');
+const kontakt = document.getElementById('kontakt');
+if (bar && hero && kontakt) {
+  let mimoHero = false, uKontaktu = false;
+  const prepni = () => {
+    const zobrazit = mimoHero && !uKontaktu && !nav.classList.contains('open');
+    bar.classList.toggle('show', zobrazit);
+    bar.setAttribute('aria-hidden', !zobrazit);
+  };
+  new IntersectionObserver(([e]) => { mimoHero = !e.isIntersecting; prepni(); },
+    {rootMargin: '-120px 0px 0px'}).observe(hero);
+  new IntersectionObserver(([e]) => { uKontaktu = e.isIntersecting; prepni(); },
+    {rootMargin: '0px 0px -20%'}).observe(kontakt);
+  nav.addEventListener('transitionend', prepni);
+  burger.addEventListener('click', () => setTimeout(prepni, 10));
+}
 </script>
 
 <script type="application/ld+json">
@@ -914,7 +998,7 @@ const spy = new IntersectionObserver(entries => {
       "url":"https://soficare.cz/",
       "name":"Sofi Care, kosmetické služby Liberec",
       "inLanguage":"cs-CZ",
-      "dateModified":"2026-08-27",
+      "dateModified":"2026-08-29",
       "about":{"@id":"https://soficare.cz/#studio"},
       "publisher":{"@id":"https://soficare.cz/#studio"}
     },

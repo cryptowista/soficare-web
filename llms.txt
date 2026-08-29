@@ -47,6 +47,7 @@ Ceny jsou konečné, Sofie Wienerová není plátce DPH. Platba hotově nebo ban
 ## Sekce webu
 
 - [O mně](https://soficare.cz/#o-mne): vzdělání, přístup k práci, používaná kosmetika
+- [Jak to probíhá](https://soficare.cz/#prubeh): tři kroky každého ošetření, konzultace, ošetření na míru, doporučení domácí péče
 - [Procedury](https://soficare.cz/#procedury): popis jednotlivých ošetření
 - [Ceník](https://soficare.cz/#cenik): kompletní ceník včetně balíčků a doplňkových služeb
 - [Kontraindikace](https://soficare.cz/#kontraindikace): kdy ošetření nelze provést
@@ -59,4 +60,4 @@ Kontraindikace: ošetření nelze provést při akutním oparu v místě ošetř
 
 Laminace obočí i Korejský Lash Lifting drží zhruba pět až sedm týdnů. Prvních 24 hodin po ošetření se nedoporučuje voda, pára ani sauna.
 
-Poslední aktualizace: 2026-08-27
+Poslední aktualizace: 2026-08-29
